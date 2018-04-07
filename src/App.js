@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import BasicHours from './components/BasicHours'
+import UnderConstruction from './components/UnderConstruction'
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
         </header>
         <p className="App-intro">
           <BasicHours />
+          <UnderConstruction />
         </p>
       </div>
     );
