@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './images/thwslogo.jpg';
 import './App.css';
 
+import AppHeader from './components/AppHeader'
 import BasicHours from './components/BasicHours'
 import UnderConstruction from './components/UnderConstruction'
 
@@ -10,10 +11,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          {/*
-          <img src={logo} className="App-logo" alt="logo" />
-          */}
-          <h1 className="App-title">Warriors for Christ</h1>
+          <AppHeader />
         </header>
         <p className="App-intro">
           <BasicHours />
