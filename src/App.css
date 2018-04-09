@@ -12,3 +12,17 @@
 .App-intro {
   font-size: large;
 }
+
+.appLogo {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 50%;
+  top: 10px;
+  margin-left: -100px;
+}
+
+.appLogo img {
+  width: 100%;
+  height: auto;
+}

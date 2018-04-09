@@ -3,6 +3,7 @@ import logo from './images/thwslogo.jpg';
 import './App.css';
 
 import AppHeader from './components/AppHeader'
+import ThwsLogo from './components/ThwsLogo'
 import BasicHours from './components/BasicHours'
 import UnderConstruction from './components/UnderConstruction'
 
@@ -16,6 +17,7 @@ class App extends Component {
         <p className="App-intro">
           <BasicHours />
           <UnderConstruction />
+          <ThwsLogo />
         </p>
       </div>
     );
