@@ -8,6 +8,7 @@ class AppHeader extends Component {
             <div className="appHeader">
                 <div>
                     <h1 className="appHeader-title">Warriors for Christ</h1>
+                    <p>Christian Ministries through Martial Arts</p>
                 </div>
             </div>
         );
