@@ -4,7 +4,6 @@ import './styles/w3.css'
 
 import AppHeader from './components/AppHeader'
 import Atlanta from './components/Atlanta'
-import BasicHours from './components/BasicHours'
 import Raleigh from './components/Raleigh'
 import ThwsLogo from './components/ThwsLogo'
 import UnderConstruction from './components/UnderConstruction'
