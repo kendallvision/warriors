@@ -1,7 +1,8 @@
 .appHeader {
     height: 80px;
+    width: 100%;
 }
 
 .appHeader-title {
-    font-size: 2.0em;
+    font-size: 1.75em;
 }

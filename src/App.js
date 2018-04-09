@@ -1,23 +1,37 @@
 import React, { Component } from 'react';
 import './App.css';
+import './styles/w3.css'
 
 import AppHeader from './components/AppHeader'
-import ThwsLogo from './components/ThwsLogo'
+import Atlanta from './components/Atlanta'
 import BasicHours from './components/BasicHours'
+import Raleigh from './components/Raleigh'
+import ThwsLogo from './components/ThwsLogo'
 import UnderConstruction from './components/UnderConstruction'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
+      <div>
+        <div class="w3-container w3-black">
           <AppHeader />
-        </header>
-        <p className="App-intro">
-          <BasicHours />
+        </div>
+
+        <div class="w3-row-padding">
+          <div class="w3-third">
+            <ThwsLogo />
+          </div>
+          <div class="w3-third">
+            <Atlanta />
+          </div>
+          <div class="w3-third">
+            <Raleigh />
+          </div>
+        </div>
+
+        <div class="w3-row-padding">
           <UnderConstruction />
-          <ThwsLogo />
-        </p>
+        </div>        
       </div>
     );
   }

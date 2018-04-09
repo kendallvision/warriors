@@ -9,7 +9,7 @@ import '../App.css';
 class ThwsLogo extends Component {
 
     appLogoClick(event) {
-        ReactDOM.render(<THWSPage />, document.getElementById('root'));
+        //ReactDOM.render(<THWSPage />, document.getElementById('root'));
     }
 
     render() {
