@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './images/thwslogo.jpg';
 import './App.css';
 
 import AppHeader from './components/AppHeader'
