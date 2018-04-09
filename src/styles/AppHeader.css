@@ -3,6 +3,12 @@
     width: 100%;
 }
 
+.appHeader p {
+    margin: 0;
+    font-size: 1.5vw;
+}
+
 .appHeader-title {
     font-size: 1.75em;
+    margin-bottom: 0;
 }
