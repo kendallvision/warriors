@@ -1,4 +1,3 @@
-import React, { Component } from 'react'
 import Location from './Location'
 
 class Raleigh extends Location { }
