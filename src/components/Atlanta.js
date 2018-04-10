@@ -6,7 +6,7 @@ class Atlanta extends Component {
     render() {
         return (
             <div className="location">
-                <h3>Atlanta Dojo</h3>
+                <h3>Atlanta Location</h3>
                 <h4>Gwinnett Church of Christ</h4>
                 <p>1736 Sever Rd<br/>Lawrenceville, GA 30043</p>
                 <p>Classes held Thursdays at 6pm</p>

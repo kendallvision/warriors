@@ -6,7 +6,7 @@ class Raleigh extends Component {
     render() {
         return (
             <div className="location">
-                <h3>Raleigh Dojo</h3>
+                <h3>Raleigh Location</h3>
                 <h4>Brooks Ave Church of Christ</h4>
                 <p>700 Brooks Ave<br />Raleigh, NC 27607</p>
                 <p>Classes held Tuesdays at 6pm</p>
