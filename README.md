@@ -17,4 +17,5 @@ npm start
     <li>CircleCi</li>
     <li>Heroku</li>
     <li>W3 for Responsiveness</li>
+    <li>Create-React-App</li>
 </ul>
