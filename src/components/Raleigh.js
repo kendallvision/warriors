@@ -10,7 +10,7 @@ Raleigh.defaultProps = {
     address1: "700 Brooks Ave",
     cityStateZip: "Raleigh, NC 27607",
     classTimes:"Tuesdays at 6pm",
-    registrationStatus: "Email us to be added to our new student waiting list.",
+    registrationStatus: "Email us to be added to our new student waiting list",
     registrationPrice: "Registration $50 (includes 1st month & uniform)",
     registrationMonthly: "Monthly dues $30 for first student",
     registrationOtherFamily: "$10 for each additional family member",
