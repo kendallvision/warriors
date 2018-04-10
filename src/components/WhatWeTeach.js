@@ -9,6 +9,7 @@ import '../styles/WhatWeTeach.css'
 class WhatWeTeach extends Component {
 
     onLearnMoreClick(event) {
+        window.scroll(0, 0);
         ReactDOM.render(<AboutTHWS />, document.getElementById('contentRoot'));
     }
 
