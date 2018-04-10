@@ -12,10 +12,10 @@ class Raleigh extends Component {
                 <h4>Classes held Tuesdays at 6pm</h4>
                 <p>Dues
                     <ul>
+                        <li>Email us to be added to our new student waiting list.</li>
                         <li>Registration $50 (includes 1st month &amp; uniform)</li>
                         <li>Monthly dues $30 for first student</li>
                         <li>$10 for each additional family member</li>
-                        <li>Email us to be added to our new student waiting list.</li>
                     </ul>
                 </p>
                 <p>

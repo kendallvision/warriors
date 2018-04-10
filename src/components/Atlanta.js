@@ -12,10 +12,10 @@ class Atlanta extends Component {
                 <h4>Classes held Thursdays at 6pm</h4>
                 <p>Dues
                     <ul>
+                        <li>Currently accepting new students</li>
                         <li>Registration $50 (includes 1st month &amp; uniform)</li>
                         <li>Monthly dues $25 for first student</li>
                         <li>$5 for each additional family member</li>
-                        <li>Currently accepting new students</li>
                     </ul>
                 </p>
                 <p>
