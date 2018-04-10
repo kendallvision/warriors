@@ -9,3 +9,12 @@
 <h2>Getting Started</h2>
 npm install<br/>
 npm start
+
+<h2>Key Technologies Used</h2>
+<ul>
+    <li>React</li>
+    <li>Javascript/Html/Css</li>
+    <li>CircleCi</li>
+    <li>Heroku</li>
+    <li>W3 for Responsiveness</li>
+</ul>
