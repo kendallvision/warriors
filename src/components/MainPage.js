@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import Atlanta from '../components/Atlanta'
 import Raleigh from '../components/Raleigh'
+import Sanctioned from '../components/Sanctioned'
 import ThwsLogo from '../components/ThwsLogo'
 import UnderConstruction from '../components/UnderConstruction'
 import WhatWeTeach from '../components/WhatWeTeach'
@@ -29,8 +30,13 @@ class MainPage extends Component {
                 </div>
 
                 <div className="w3-row-padding">
-                    <div className="w3-whole">
-                    <WhatWeTeach />
+                    <div className="w3-third">
+                        <WhatWeTeach />
+                    </div>
+                    <div className="w3-third">
+                    </div>
+                    <div className="w3-third">
+                        <Sanctioned />
                     </div>
                 </div>
             </div>
