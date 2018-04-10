@@ -15,7 +15,7 @@ class WhatWeTeach extends Component {
     render() {
         return (
             <div className="infoSection whatWeTeach">
-                <h2>What do we teach?</h2>
+                <h2>What We Teach</h2>
                 <p>
                     Warriors for Christ shares the love of Christ through the Contagious Christianity concept of doing life and having fun together.
                 </p>
