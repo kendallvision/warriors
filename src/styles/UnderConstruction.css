@@ -5,3 +5,8 @@
     background-color: yellow;
     border-radius: 20px;
 }
+
+#underConstruction h3 {
+    font-size: 12pt;
+    padding: 5px;
+}
