@@ -2,7 +2,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 The purpose of this application is to provide a basic website for Warriors-For-Christ.
 
-Key features
+<h1>Getting Started</h1>
+npm install
+npm start
+
+<h1>Key features</h1>
 •	Uses standard git flow with two primary branches: master and develop
 
 •	All work initially committed to develop
