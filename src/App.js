@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import './styles/w3.css'
 
-import AboutTHWS from './components/AboutTHWS'
+import WhatWeTeach from './components/WhatWeTeach'
 import AppHeader from './components/AppHeader'
 import Atlanta from './components/Atlanta'
 import Raleigh from './components/Raleigh'
@@ -31,7 +31,7 @@ class App extends Component {
 
         <div className="w3-row-padding">
           <div className="w3-whole">
-            <AboutTHWS />
+            <WhatWeTeach />
           </div>
         </div>
 

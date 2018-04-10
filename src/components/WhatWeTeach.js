@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
 import '../App.css'
-import '../styles/AboutTHWS.css'
+import '../styles/WhatWeTeach.css'
 
-class AboutTHWS extends Component {
+class WhatWeTeach extends Component {
 
     onLearnMoreClick(event) {
 
@@ -11,7 +11,7 @@ class AboutTHWS extends Component {
 
     render() {
         return (
-            <div className="infoSection aboutTHWS">
+            <div className="infoSection whatWeTeach">
                 <h2>What do we teach?</h2>
                 <p>
                     Warriors for Christ shares the love of Christ through the Contagious Christianity concept of doing life and having fun together.
@@ -37,4 +37,4 @@ class AboutTHWS extends Component {
     }
 }
 
-export default AboutTHWS;
+export default WhatWeTeach;

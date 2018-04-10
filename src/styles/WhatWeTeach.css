@@ -1,4 +1,4 @@
-.aboutTHWS {
+.whatWeTeach {
     background-color: #DEDEDE;
     border-radius: 10px;
     padding: 1px 10px;
@@ -8,18 +8,18 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.aboutTHWS h2 {
+.whatWeTeach h2 {
     font-size: 16pt;
 }
 
-.aboutTHWS ul {
+.whatWeTeach ul {
     margin-top: 0;
 }
 
-.aboutTHWS p, ul {
+.whatWeTeach p, ul {
     font-size: 10pt;
 }
 
-.aboutTHWS button {
+.whatWeTeach button {
     margin-bottom: 10px;
 }
