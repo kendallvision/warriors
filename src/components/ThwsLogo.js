@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 
 import logo from '../images/thwslogo.jpg'
-import ReactDOM from 'react-dom'
-import THWSPage from '../pages/THWSPage'
 
 import '../App.css';
 

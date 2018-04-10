@@ -12,23 +12,23 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div class="w3-container w3-black">
+        <div className="w3-container w3-black">
           <AppHeader />
         </div>
 
-        <div class="w3-row-padding">
-          <div class="w3-third">
+        <div className="w3-row-padding">
+          <div className="w3-third">
             <ThwsLogo />
           </div>
-          <div class="w3-third">
-            <Atlanta />
-          </div>
-          <div class="w3-third">
+          <div className="w3-third">
             <Raleigh />
+          </div>
+          <div className="w3-third">
+            <Atlanta />
           </div>
         </div>
 
-        <div class="w3-row-padding">
+        <div className="w3-row-padding">
           <UnderConstruction />
         </div>        
       </div>
