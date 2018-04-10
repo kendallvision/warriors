@@ -9,7 +9,7 @@ class Atlanta extends Component {
                 <h3>Atlanta Location</h3>
                 <h4>Gwinnett Church of Christ</h4>
                 <p>1736 Sever Rd<br/>Lawrenceville, GA 30043</p>
-                <p>Classes held Thursdays at 6pm</p>
+                <h4>Classes held Thursdays at 6pm</h4>
                 <p>Dues
                     <ul>
                         <li>Registration $50 (includes 1st month &amp; uniform)</li>
