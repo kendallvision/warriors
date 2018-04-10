@@ -10,6 +10,7 @@ import '../styles/AppHeader.css';
 class AppHeader extends Component {
 
     onHomeClick(event) {
+        window.scroll(0, 0);
         ReactDOM.render(<MainPage />, document.getElementById('contentRoot'));
     }
 
