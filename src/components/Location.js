@@ -5,7 +5,10 @@ import '../App.css'
 
 class Location extends Component {
     render() {
+        const calendar = this.props.calendarLink == '' ? '' : <a target="none" href={this.props.calendarLink}>Events Calendar</a>;
+            
         return (
+
             <div className="location infoSection">
                 <h3>{this.props.locationTown} Location</h3>
                 <div className="headInstructor"><b>Head Instructor:</b> {this.props.headInstructor}</div>
@@ -31,6 +34,8 @@ class Location extends Component {
                 <p>
                     <a href={this.props.infoEmail}>Email {this.props.locationTown} Dojo</a>
                 </p>
+
+                {calendar}
             </div>
         )
     }
