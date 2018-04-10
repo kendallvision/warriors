@@ -9,7 +9,14 @@ class Raleigh extends Component {
                 <h3>Raleigh</h3>
                 <h4>Brooks Ave Church of Christ</h4>
                 <p>700 Brooks Ave<br />Raleigh, NC 27607</p>
-                <p>Tuesdays at 6pm</p>
+                <p>Classes held Tuesdays at 6pm</p>
+                <p>Dues
+                    <ul>
+                        <li>Registration $50 (includes 1st month &amp; uniform)</li>
+                        <li>Monthly dues $30 for first student</li>
+                        <li>$10 for each additional family member.</li>
+                    </ul>
+                </p>
             </div>
         );
     }
