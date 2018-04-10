@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import ReactDOM from 'react-dom';
+
+import AboutTHWS from './AboutTHWS'
 
 import logo from '../images/thwslogo.jpg'
 
@@ -7,7 +10,8 @@ import '../App.css';
 class ThwsLogo extends Component {
 
     appLogoClick(event) {
-        //ReactDOM.render(<THWSPage />, document.getElementById('root'));
+        window.scroll(0, 0);
+        ReactDOM.render(<AboutTHWS />, document.getElementById('contentRoot'));
     }
 
     render() {
