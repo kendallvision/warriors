@@ -12,3 +12,15 @@
     font-size: 1.75em;
     margin-bottom: 0;
 }
+
+#homeLogo {
+    float: left;
+    margin-right: 10px;
+    background-color: white;
+    padding: 3px;
+    cursor: pointer;
+}
+
+#homeLogo img {
+    width: 55px;
+}
