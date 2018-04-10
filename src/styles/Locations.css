@@ -8,18 +8,6 @@
     margin-top: 0;
 }
 
-.location a {
-    color: #080;
-}
-
-.location a:hover {
-    color: #00A;
-}
-
-.location a:link {
-    text-decoration: none;
-}
-
 .headInstructor {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10pt;
