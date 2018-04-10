@@ -18,15 +18,24 @@
 
 .sanctionedImages {
     margin-top: 10px;
-    background-color: white;
-    border-radius: 10px;
     text-align: center;
     padding: 10px 0;
     max-width: 400px;
-    margin-bottom: 15px;
 }
 
 .sanctionedImages img {
     max-width: 150px;
     min-width: 50px;
+    padding: 5px;
+    margin: 3px;
+    background-color: white;
+}
+
+#icma {
+    border-radius: 65px;
+}
+
+#ifcma {
+    border-radius: 75px;
+    padding-left: 0;
 }
