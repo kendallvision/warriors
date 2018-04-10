@@ -5,7 +5,7 @@ import '../App.css'
 
 class Location extends Component {
     render() {
-        const calendar = this.props.calendarLink == '' ? '' : <a target="none" href={this.props.calendarLink}>Events Calendar</a>;
+        const calendar = this.props.calendarLink == '' ? <div>&nbsp;</div> : <a target="none" href={this.props.calendarLink}>Events Calendar</a>;
             
         return (
 
@@ -22,6 +22,9 @@ class Location extends Component {
                     </a>
                 </div>
                 <h4>Classes held {this.props.classTimes}</h4>
+                <div>
+                    {calendar}
+                </div>
                 <div className="locationDues">
                     <b>Dues</b>
                     <ul>
@@ -31,11 +34,11 @@ class Location extends Component {
                         <li>{this.props.registrationOtherFamily}</li>
                     </ul>
                 </div>
-                <p>
-                    <a href={this.props.infoEmail}>Email {this.props.locationTown} Dojo</a>
-                </p>
-
-                {calendar}
+                <div>
+                    <div>
+                        <a href={this.props.infoEmail}>Email {this.props.locationTown} Dojo</a>
+                    </div>
+                </div>
             </div>
         )
     }
