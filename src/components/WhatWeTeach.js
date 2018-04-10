@@ -26,6 +26,7 @@ class WhatWeTeach extends Component {
                 <ul>
                     <li>Love for One Another</li>
                     <li>Discipline</li>
+                    <li>Honor</li>
                     <li>Mutual Respect</li>
                     <li>Physical Fitness</li>
                     <li>Self Defense</li>
