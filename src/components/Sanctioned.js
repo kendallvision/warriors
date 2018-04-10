@@ -14,8 +14,8 @@ class Sanctioned extends Component {
                 <h2>Tao Hsieh Wu Shu is sactioned by</h2>
                 <div className="sanctionedImages">
                     <div>
-                        <img src={icma} alt="ICMA"/>
-                        <a target="blank" href="http://ifcma.org/"> <img src={ifcma} alt="IFCMA"/></a>
+                        <img id="icma" src={icma} alt="ICMA"/>
+                        <a target="blank" href="http://ifcma.org/"><img id="ifcma" src={ifcma} alt="IFCMA"/></a>
                     </div>
                 </div>
             </div>
