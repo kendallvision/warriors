@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import Atlanta from '../components/Atlanta'
+import Instructors from '../components/Instructors'
 import Raleigh from '../components/Raleigh'
 import Sanctioned from '../components/Sanctioned'
 import ThwsLogo from '../components/ThwsLogo'
@@ -13,10 +14,6 @@ class MainPage extends Component {
     render() {
         return (
             <div id="mainPage">
-                <div className="w3-row-padding">
-                    <UnderConstruction />
-                </div>        
-
                 <div className="w3-row-padding">
                     <div className="w3-third">
                     <ThwsLogo />
@@ -34,6 +31,7 @@ class MainPage extends Component {
                         <WhatWeTeach />
                     </div>
                     <div className="w3-third">
+                        <Instructors />
                     </div>
                     <div className="w3-third">
                         <Sanctioned />
