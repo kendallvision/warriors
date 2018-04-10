@@ -14,7 +14,8 @@ Raleigh.defaultProps = {
     registrationPrice: "Registration $50 (includes 1st month & uniform)",
     registrationMonthly: "Monthly dues $30 for first student",
     registrationOtherFamily: "$10 for each additional family member",
-    infoEmail: "mailto:info.raleigh@warriors-for-christ.com"
+    infoEmail: "mailto:info.raleigh@warriors-for-christ.com",
+    calendarLink: ''
 }
 
 export default Raleigh;
