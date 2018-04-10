@@ -1,9 +1,10 @@
 .location {
     margin-top: 10px;
-    background-color: #EEE;
-    border-radius: 2px;
+    background-color: #DEDEDE;
+    border-radius: 10px;
     padding: 1px 10px;
-    height: 200px;
+    min-height: 325px;
+    max-height: 450px;
 }
 
 .location h3 {
@@ -20,4 +21,8 @@
 
 .location p {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.location ul {
+    margin-top: 0;
 }
