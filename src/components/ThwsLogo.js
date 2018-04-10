@@ -13,7 +13,9 @@ class ThwsLogo extends Component {
     render() {
         return (
             <div className="appLogo" onClick={(e) => this.appLogoClick()}>
-                <img src={logo} alt="logo" /> 
+                <div className="appLogo-semantic">
+                    <img src={logo} alt="logo" /> 
+                </div>
             </div>
         );
     }

@@ -15,7 +15,7 @@ class Raleigh extends Component {
                         <li>Registration $50 (includes 1st month &amp; uniform)</li>
                         <li>Monthly dues $30 for first student</li>
                         <li>$10 for each additional family member</li>
-                        <li>Email us to get on our waiting list.</li>
+                        <li>Email us to get on our waiting list</li>
                     </ul>
                 </p>
                 <p>

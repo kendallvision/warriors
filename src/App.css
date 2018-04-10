@@ -15,16 +15,19 @@
 }
 
 .appLogo {
-  width: 180px;
-  position: relative;
-  left: 50%;
-  top: 10px;
-  margin-left: -90px;
+  display: table;
+  width: 100%;
   cursor: pointer;
-  margin-bottom: 15px;
+}
+
+.appLogo-semantic {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .appLogo img {
   max-width: 100%;
   height: auto;
+  max-height: 250px;
 }
