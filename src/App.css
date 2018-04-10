@@ -15,11 +15,11 @@
 }
 
 .appLogo {
-  width: 200px;
+  width: 180px;
   position: relative;
   left: 50%;
   top: 10px;
-  margin-left: -100px;
+  margin-left: -90px;
   cursor: pointer;
   margin-bottom: 15px;
 }
