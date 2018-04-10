@@ -13,6 +13,10 @@ class MainPage extends Component {
         return (
             <div id="mainPage">
                 <div className="w3-row-padding">
+                    <UnderConstruction />
+                </div>        
+
+                <div className="w3-row-padding">
                     <div className="w3-third">
                     <ThwsLogo />
                     </div>
@@ -29,10 +33,6 @@ class MainPage extends Component {
                     <WhatWeTeach />
                     </div>
                 </div>
-
-                <div className="w3-row-padding">
-                    <UnderConstruction />
-                </div>        
             </div>
         );
     }
