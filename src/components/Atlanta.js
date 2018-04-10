@@ -6,7 +6,7 @@ class Atlanta extends Component {
     render() {
         return (
             <div className="location">
-                <h3>Atlanta</h3>
+                <h3>Atlanta Dojo</h3>
                 <h4>Gwinnett Church of Christ</h4>
                 <p>1736 Sever Rd<br/>Lawrenceville, GA 30043</p>
                 <p>Classes held Thursdays at 6pm</p>
@@ -14,8 +14,12 @@ class Atlanta extends Component {
                     <ul>
                         <li>Registration $50 (includes 1st month &amp; uniform)</li>
                         <li>Monthly dues $25 for first student</li>
-                        <li>$5 for each additional family member.</li>
+                        <li>$5 for each additional family member</li>
+                        <li>Currently accepting new students</li>
                     </ul>
+                </p>
+                <p>
+                    <a href="mailto:info.atlanta@warriors-for-christ.com">Email Atlanta Dojo</a>
                 </p>
             </div>
         );
