@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import ReactDOM from 'react-dom';
+
+import AboutTHWS from './AboutTHWS'
 
 import '../App.css'
 import '../styles/WhatWeTeach.css'
@@ -6,7 +9,7 @@ import '../styles/WhatWeTeach.css'
 class WhatWeTeach extends Component {
 
     onLearnMoreClick(event) {
-
+        ReactDOM.render(<AboutTHWS />, document.getElementById('contentRoot'));
     }
 
     render() {
@@ -29,9 +32,7 @@ class WhatWeTeach extends Component {
                 <p>
                     Our martial arts style is <b>Tao Hsieh Wu Shu</b>
                 </p>
-                {/*
-                <a onClick={(e) => this.onLearnMoreClick()}>Learn More</a>
-                */}
+                <a onClick={(e) => this.onLearnMoreClick(e)}>Learn More</a>
             </div>
         )
     }

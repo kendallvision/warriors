@@ -1,0 +1,68 @@
+#buttonDiv {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#buttonDiv button {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#descriptionDiv {
+    position: relative;
+    top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.quote {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 10pt;
+}
+
+.belt {
+    margin: 10px 0;
+}
+
+.colorBlock {
+    height: 15px;
+    width: 15px;
+    border: 2px solid black;
+    float: left;
+    position: relative;
+    top: 3px;
+}
+
+.beltText {
+    position: relative;
+    left: 25px;
+}
+
+.colorWhite {
+    background-color: white;
+}
+
+.colorYellow {
+    background-color: yellow;
+}
+
+.colorOrange {
+    background-color: darkorange;
+}
+
+.colorGreen {
+    background-color: green;
+}
+
+.colorBlue {
+    background-color: blue;
+}
+
+.colorRed {
+    background-color: red;
+}
+
+.colorBlack {
+    background-color: black;
+}
