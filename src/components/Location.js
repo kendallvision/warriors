@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 
 import '../styles/Locations.css'
+import '../App.css'
 
 class Location extends Component {
     render() {
         return (
-            <div className="location">
+            <div className="location infoSection">
                 <h3>{this.props.locationTown} Location</h3>
                 <div className="headInstructor"><b>Head Instructor:</b> {this.props.headInstructor}</div>
                 <div className="locationAddress">
