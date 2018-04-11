@@ -64,10 +64,18 @@ class JoelGeniesse extends InstructorBio {
 
                 <div className="w3-row-padding">
                     <div className="w3-half">
-                        <img src={JoelPicture2}/>
+                        <div className="appLogo">
+                            <div className="appLogo-semantic">
+                                <img id="joelPicture2" src={JoelPicture2}/>
+                            </div>
+                        </div>
                     </div>
                     <div className="w3-half">
-                        <img src={JoelPicture3}/>
+                        <div className="appLogo">
+                            <div className="appLogo-semantic">
+                                <img id="joelPicture3" src={JoelPicture3}/>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
