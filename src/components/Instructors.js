@@ -30,6 +30,8 @@ class Instructors extends Component {
                     <li>Greg Kendall</li>
                     <li>Joseph Jones</li>
                 </ul>
+
+                <UnderConstruction/>
             </div>
         )
     }
