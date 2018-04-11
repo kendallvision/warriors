@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom';
 import MainPage from './MainPage'
 
 import JoelPicture1 from '../images/sokeGeniesse.jpg'
+import JoelPicture2 from '../images/imgFatherSon.jpg'
+import JoelPicture3 from '../images/imgMastersDemo.jpg'
 
 class InstructorBio extends Component {
     onBackClick(event) {
@@ -57,6 +59,15 @@ class JoelGeniesse extends InstructorBio {
                             <li>Deacon; Campus Student Ministry</li>
                             <li>Certified radKIDS instructor</li>
                         </ul>
+                    </div>
+                </div>
+
+                <div className="w3-row-padding">
+                    <div className="w3-half">
+                        <img src={JoelPicture2}/>
+                    </div>
+                    <div className="w3-half">
+                        <img src={JoelPicture3}/>
                     </div>
                 </div>
 
