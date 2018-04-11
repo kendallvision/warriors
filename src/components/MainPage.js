@@ -16,13 +16,13 @@ class MainPage extends Component {
             <div id="mainPage">
                 <div className="w3-row-padding">
                     <div className="w3-third">
-                    <ThwsLogo />
+                        <ThwsLogo />
                     </div>
                     <div className="w3-third">
-                    <Raleigh />
+                        <Raleigh />
                     </div>
                     <div className="w3-third">
-                    <Atlanta />
+                        <Atlanta />
                     </div>
                 </div>
 
