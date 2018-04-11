@@ -28,16 +28,14 @@ class AboutTHWS extends Component {
                         </div>
                     </div>
                     <p>
-                        Learn martial arts in a family environment with fellow students who wish to grow and develop to the best of their ability, no matter their age or background.  Students are allowed to begin classes at four (4) years old, and are encouraged to join as a family.
+                        Learn martial arts in a family environment with fellow students who wish to grow and 
+                        develop to the best of their ability, no matter their age or background.  
+                        Students are encouraged to join as a family. The martial arts are a life-long sport 
+                        in which the family can learn and grow together.                 
                     </p>
                     <p>
-                        The Martial arts are a life sport in which the family can learn and grow together.                 
-                    </p>
-                    <p>
-                        Tao Hsieh Wu Shu is pronounced; taw heshy woo shoo
-                    </p>
-                    <p>
-                        Tao Hsieh Wu Shu literally means the way of unified martial arts. 
+                        Tao Hsieh Wu Shu is pronounced; taw heshy woo shoo and literally means the way 
+                        of unified martial arts. 
                     </p>
                     <p>
                         Created by Sifu Joel Geniesse under the guidance of Jerry Wiles, Boo Kwon Chang Nim, of the International Christian Martial Arts Association (ICMA), and tempered in the pre-UFC world of open full contact tournaments, Tao Hsieh Wu Shu is quickly becoming a world recognized martial art system. 
@@ -58,10 +56,28 @@ class AboutTHWS extends Component {
                     </p>
 
                     <p>
-                        The development of Tao Hsieh Wu Shu began in 2000 when Sifu Geniesse was approached by Master Phillip Cann to create a Christian focused martial art system. Tao Hsieh Wu Shu was officially sanctioned by the ICMA on June 9, 2007 at their international Championships. In addition to the tournament, students of Tao Hsieh Wu Shu performed a demonstration introducing their style to the international martial arts community. On August 18, 2007, at the International Fellowship of Christian Martial Arts' (IFCMA) annual black belt seminar, the Shihon Counsel bestowed upon Sifu Geniesse, Soke (founder or head of house) recognition. Max Andrews, Kyoshi, of the IFCMA, played a critical role in preparing Sifu Geniesse for his master's test and presentation of Tao Hsieh Wu Shu to the Shihon Counsel of the ICMA. Andrews Kyoshi, who himself is Soke of Niho Kempo Jujitsu Ryu and 2007 inductee into the United States Martial Arts Hall of Fame, is still mentor and advisor to Soke Geniesse. 
+                        The development of Tao Hsieh Wu Shu began in 2000 when Sifu Geniesse was approached by 
+                        Master Phillip Cann to create a Christian focused martial art system. 
+                        Tao Hsieh Wu Shu was officially sanctioned by the ICMA on June 9, 2007 at their 
+                        international Championships. In addition to the tournament, students of Tao Hsieh Wu Shu 
+                        performed a demonstration introducing their style to the international martial arts 
+                        community. On August 18, 2007, at the International Fellowship of Christian 
+                        Martial Arts' (IFCMA) annual black belt seminar, the Shihon Counsel bestowed upon 
+                        Sifu Geniesse, Soke (founder or head of house) recognition. Max Andrews, Kyoshi, of the 
+                        IFCMA, played a critical role in preparing Sifu Geniesse for his master's test and 
+                        presentation of Tao Hsieh Wu Shu to the Shihon Counsel of the ICMA. Andrews Kyoshi (may he rest
+                        in peace) who himself is Soke of Niho Kempo Jujitsu Ryu and 2007 inductee into the United States 
+                        Martial Arts Hall of Fame, was a long-time mentor and advisor to Soke Geniesse. 
                     </p>
                     <p>
-                        Tao Hsieh Wu Shu is based on the premise that there is no one perfect martial art form. The focus is for each person to create a style based upon a wide range of the techniques and that individual's ability. The student will use the most effective techniques from various martial arts forms, which are best suited for their goals and abilities. It is an open-ended form of martial arts that does not set limitations on an individual. Focus is placed on unifying techniques found from many different martial arts styles, taking various movements from the styles and regions and then allowing each individual to grow and become competent in their own individualized style within the martial arts.
+                        Tao Hsieh Wu Shu is based on the premise that there is no one perfect martial art form. 
+                        The focus is for each person to create a style based upon a wide range of the techniques 
+                        and that individual's ability. The student will use the most effective techniques from 
+                        various martial arts forms, which are best suited for their goals and abilities. It is an 
+                        open-ended form of martial arts that does not set limitations on an individual. Focus is 
+                        placed on unifying techniques found from many different martial arts styles, taking various 
+                        movements from the styles and regions and then allowing each individual to grow and become 
+                        competent in their own individualized style within the martial arts.
                     </p>
                     <p>
                         Students often consider their training linked to a specific animal style. This encourages a smooth contrast between the mixture of martial art forms and the student as an individual. Even-though students learn the same range of techniques each student has a specific focus. Where the focus of one student may be powerful kicks; the next student may focus on grappling. 
