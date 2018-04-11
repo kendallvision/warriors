@@ -2,10 +2,15 @@
     font-size: 16pt;
 }
 
+.instructors h3 {
+    font-size: 14pt;
+}
+
 .instructors ul {
     list-style-type: none;
-    font-size: 12pt;
+    font-size: 10pt;
     padding-left: 20px;
+    margin-top: 0;
 }
 
 .instructorBio {
