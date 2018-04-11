@@ -36,6 +36,7 @@ class JoelGeniesse extends InstructorBio {
                             Founder
                         </div>
                         <ul>
+                            <li>Founder of Tao Hsieh Wu Shu and Warriors for Christ</li>
                             <li>Started training in martial arts (Muay Thai and TKD) in January, 1980</li>
                             <li>Founder of Tao Hsieh Wu Shu, The Way of Unified Martial Arts, June 2007</li>
                             <li>Promoted to Master Instructor on June 9th, at the 2007 ICMA National Championships</li>
