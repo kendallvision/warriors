@@ -23,12 +23,10 @@ class Instructors extends Component {
                     <li>
                         <a href="#" onClick={(e) => this.onClick(e, <JoelGeniesse/>)}>Joel Geniesse, soke</a>
                     </li>
-                    <li>Katie Geniese</li>
                 </ul>
                 <h3>Atlanta</h3>
                 <ul>
                     <li>Greg Kendall</li>
-                    <li>Joseph Jones</li>
                 </ul>
 
                 <UnderConstruction/>
