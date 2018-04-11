@@ -11,7 +11,7 @@ class Sanctioned extends Component {
     render() {
         return (
             <div className="infoSection sanctioned">
-                <h2>Tao Hsieh Wu Shu is sactioned by</h2>
+                <h2>Tao Hsieh Wu Shu is sanctioned by</h2>
                 <div className="sanctionedImages">
                     <div>
                         <img id="icma" src={icma} alt="ICMA"/>
