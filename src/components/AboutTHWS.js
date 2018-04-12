@@ -5,6 +5,7 @@ import MainPage from './MainPage'
 
 import title from '../images/titleTaoHsiehWuShu.jpg'
 import kanji from '../images/kanji.jpg'
+import logo from '../images/thwslogo.jpg'
 
 import '../styles/AboutTHWS.css'
 
@@ -22,6 +23,11 @@ class AboutTHWS extends Component {
                     <button onClick={(e) => this.onBackClick(e)}>Home</button>
                 </div>
                 <div id="descriptionDiv">
+                    <div className="appLogo">
+                        <div className="appLogo-semantic">
+                            <img src={logo} alt="Tao Hsieh Wu Shu"/>
+                        </div>
+                    </div>
                     <div className="appLogo">
                         <div className="appLogo-semantic">
                             <img src={title} alt="Tao Hsieh Wu Shu"/>
