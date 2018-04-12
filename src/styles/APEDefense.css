@@ -13,6 +13,10 @@
     margin-top: 0;
 }
 
+.instructorBio p {
+    font-size: 11pt;
+}
+
 #instructorName {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16pt;

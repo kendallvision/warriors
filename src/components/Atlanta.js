@@ -1,3 +1,6 @@
+import React, { Component } from 'react'
+
+import GregKendall from './GregKendall'
 import Location from './Location'
 
 class Atlanta extends Location { }
@@ -16,7 +19,7 @@ Atlanta.defaultProps = {
     registrationOtherFamily: "$5 for each additional family member",
     infoEmail: "mailto:info.atlanta@warriors-for-christ.com",
     calendarLink: 'https://tinyurl.com/y9q9ro2m',
-    instructor: ''
+    instructor: <GregKendall />
 }
 
 export default Atlanta;
