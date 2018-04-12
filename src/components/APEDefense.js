@@ -22,7 +22,7 @@ class APEDefense extends Component {
                         key in the car ignition.
                     </p>
                     <p>
-                        These courses are generally 1-2 hours and offered free of charge.
+                        These courses are generally 1-2 hours and are offered free of charge.
                     </p>
                 </div>
 
