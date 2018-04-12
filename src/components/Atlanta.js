@@ -15,7 +15,8 @@ Atlanta.defaultProps = {
     registrationMonthly: "Monthly dues $25 for first student",
     registrationOtherFamily: "$5 for each additional family member",
     infoEmail: "mailto:info.atlanta@warriors-for-christ.com",
-    calendarLink: 'https://tinyurl.com/y9q9ro2m'
+    calendarLink: 'https://tinyurl.com/y9q9ro2m',
+    instructor: ''
 }
 
 export default Atlanta;

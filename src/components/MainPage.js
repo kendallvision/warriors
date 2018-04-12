@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
 import Atlanta from '../components/Atlanta'
-import Instructors from '../components/Instructors'
+import APEDefense from '../components/APEDefense'
 import Raleigh from '../components/Raleigh'
 import Sanctioned from '../components/Sanctioned'
-import ThwsLogo from '../components/ThwsLogo'
+import WarriorsLogo from '../components/WarriorsLogo'
 import UnderConstruction from '../components/UnderConstruction'
 import WhatWeTeach from '../components/WhatWeTeach'
 
@@ -16,7 +16,7 @@ class MainPage extends Component {
             <div id="mainPage">
                 <div className="w3-row-padding">
                     <div className="w3-third">
-                        <ThwsLogo />
+                        <WarriorsLogo />
                     </div>
                     <div className="w3-third">
                         <Raleigh />
@@ -31,7 +31,7 @@ class MainPage extends Component {
                         <WhatWeTeach />
                     </div>
                     <div className="w3-third">
-                        <Instructors />
+                        <APEDefense />
                     </div>
                     <div className="w3-third">
                         <Sanctioned />

@@ -32,7 +32,7 @@ class JoelGeniesse extends InstructorBio {
                     </div>
                     <div className="w3-threequarter">
                         <div id="instructorName">
-                            Shihon Joel Geniesse, soke
+                            Shihon Joel Geniesse, Soke
                         </div>
                         <div id="instructorSubName">
                             Founder
