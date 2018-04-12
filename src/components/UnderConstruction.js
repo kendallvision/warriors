@@ -6,7 +6,7 @@ class UnderConstruction extends Component {
     render() {
         return (
             <div id="underConstruction">
-                <h3>Site under construction.  More coming soon.</h3>
+                <h3>Under construction.  More coming soon.</h3>
             </div>
         );
     }
