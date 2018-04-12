@@ -12,32 +12,3 @@
     padding-left: 20px;
     margin-top: 0;
 }
-
-.instructorBio p {
-    font-size: 11pt;
-}
-
-#instructorName {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16pt;
-    font-weight: bold;
-}
-
-#instructorSub {
-    font-size: 9pt;
-}
-
-#primaryPicture img {
-    max-width: 100%;
-    height: auto;
-    max-height: 300px;
-    margin: 8px 0 20px 0;
-}
-
-#joelPicture2 {
-    margin-top: 15px;
-}
-
-#joelPicture3 {
-    margin-top: 15px;
-}
