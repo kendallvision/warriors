@@ -21,7 +21,7 @@ class Location extends Component {
             <div className="location infoSection">
                 <h3>{this.props.locationTown} Location</h3>
 
-                <div className="headInstructor"><b>Head Instructor:</b>
+                <div className="headInstructor"><b>Head Instructor:&nbsp;</b>
                     <a href="#" onClick={(e) => this.onClick(e, this.props.instructor)}>{this.props.headInstructor}</a>
                 </div>
 
