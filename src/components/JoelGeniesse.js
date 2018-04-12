@@ -1,17 +1,10 @@
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom';
 
-import MainPage from './MainPage'
+import InstructorBio from './InstructorBio'
 
 import JoelPicture1 from '../images/sokeGeniesse.jpg'
 import JoelPicture2 from '../images/imgFatherSon.jpg'
 import JoelPicture3 from '../images/imgMastersDemo.jpg'
-
-class InstructorBio extends Component {
-    onBackClick(event) {
-        ReactDOM.render(<MainPage />, document.getElementById('contentRoot'));
-    }
-}
 
 class JoelGeniesse extends InstructorBio {
     render() {
