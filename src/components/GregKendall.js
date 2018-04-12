@@ -23,7 +23,7 @@ class GregKendall extends InstructorBio {
                     </div>
                     <div className="w3-threequarter">
                         <div id="instructorName">
-                            Greg Kendall, sensei
+                            Greg Kendall, Sensei
                         </div>
                         <div>
                             <p>
