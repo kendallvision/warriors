@@ -1,4 +1,7 @@
+import React, { Component } from 'react'
+
 import Location from './Location'
+import JoelGeniesse from './JoelGeniesse'
 
 class Raleigh extends Location { }
 
@@ -15,7 +18,8 @@ Raleigh.defaultProps = {
     registrationMonthly: "Monthly dues $30 for first student",
     registrationOtherFamily: "$10 for each additional family member",
     infoEmail: "mailto:info.raleigh@warriors-for-christ.com",
-    calendarLink: ''
+    calendarLink: '',
+    instructor: <JoelGeniesse />
 }
 
 export default Raleigh;
