@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import Atlanta from '../components/Atlanta'
-import Instructors from '../components/Instructors'
+import APEDefense from '../components/APEDefense'
 import Raleigh from '../components/Raleigh'
 import Sanctioned from '../components/Sanctioned'
 import WarriorsLogo from '../components/WarriorsLogo'
@@ -31,7 +31,7 @@ class MainPage extends Component {
                         <WhatWeTeach />
                     </div>
                     <div className="w3-third">
-                        <Instructors />
+                        <APEDefense />
                     </div>
                     <div className="w3-third">
                         <Sanctioned />

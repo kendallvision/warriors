@@ -1,24 +1,16 @@
-.instructors h2 {
+.apeDefense h2 {
     font-size: 16pt;
 }
 
-.instructors h3 {
+.apeDefense h3 {
     font-size: 14pt;
 }
 
-.instructors ul {
+.apeDefense ul {
     list-style-type: none;
     font-size: 10pt;
     padding-left: 20px;
     margin-top: 0;
-}
-
-.instructorBio {
-    margin: 0 15px;
-}
-
-.instructorBio ul {
-    padding-left: 10px;
 }
 
 #instructorName {
@@ -27,7 +19,7 @@
     font-weight: bold;
 }
 
-#instructorSubName {
+#instructorSub {
     font-size: 9pt;
 }
 

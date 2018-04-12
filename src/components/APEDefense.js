@@ -3,17 +3,18 @@ import ReactDOM from 'react-dom';
 
 import UnderConstruction from './UnderConstruction';
 
-import '../styles/Instructors.css'
+import '../styles/APEDefense.css'
 
-class Instructors extends Component {
+class APEDefense extends Component {
 
     render() {
         return (
-            <div className="infoSection instructors">
+            <div className="infoSection apeDefense">
+                <h2>A.P.E. Defense</h2>
                 <UnderConstruction/>
             </div>
         )
     }
 }
 
-export default Instructors;
+export default APEDefense;
