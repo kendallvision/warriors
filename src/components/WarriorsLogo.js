@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 
 import AboutTHWS from './AboutTHWS'
 
-import logo from '../images/thwslogo.jpg'
+import logo from '../images/logoWarriors.jpg'
 
 import '../App.css';
 
-class ThwsLogo extends Component {
+class WarriorsLogo extends Component {
 
     appLogoClick(event) {
         window.scroll(0, 0);
@@ -16,13 +16,15 @@ class ThwsLogo extends Component {
 
     render() {
         return (
-            <div className="appLogo" onClick={(e) => this.appLogoClick()}>
-                <div className="appLogo-semantic">
-                    <img src={logo} alt="logo" /> 
+            <div className="mainLogo">
+                <div className="appLogo" onClick={(e) => this.appLogoClick()}>
+                    <div className="appLogo-semantic">
+                        <img src={logo} alt="logo" /> 
+                    </div>
                 </div>
             </div>
         );
     }
 }
 
-export default ThwsLogo;
+export default WarriorsLogo;

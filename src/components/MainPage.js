@@ -4,7 +4,7 @@ import Atlanta from '../components/Atlanta'
 import Instructors from '../components/Instructors'
 import Raleigh from '../components/Raleigh'
 import Sanctioned from '../components/Sanctioned'
-import ThwsLogo from '../components/ThwsLogo'
+import WarriorsLogo from '../components/WarriorsLogo'
 import UnderConstruction from '../components/UnderConstruction'
 import WhatWeTeach from '../components/WhatWeTeach'
 
@@ -16,7 +16,7 @@ class MainPage extends Component {
             <div id="mainPage">
                 <div className="w3-row-padding">
                     <div className="w3-third">
-                        <ThwsLogo />
+                        <WarriorsLogo />
                     </div>
                     <div className="w3-third">
                         <Raleigh />
