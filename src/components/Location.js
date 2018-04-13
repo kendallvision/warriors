@@ -7,14 +7,14 @@ import '../App.css'
 class Location extends Component {
     
     onClick(event, instructor) {
-        if ( instructor != '' ) {
+        if ( instructor !== '' ) {
             window.scroll(0, 0);
             ReactDOM.render(instructor, document.getElementById('contentRoot'));
         }
     }
         
     render() {
-        const calendar = this.props.calendarLink == '' ? <div>&nbsp;</div> : <a target="none" href={this.props.calendarLink}>Events Calendar</a>;
+        const calendar = this.props.calendarLink === '' ? <div>&nbsp;</div> : <a target="none" href={this.props.calendarLink}>Events Calendar</a>;
 
         return (
 
@@ -22,7 +22,7 @@ class Location extends Component {
                 <h3>{this.props.locationTown} Location</h3>
 
                 <div className="headInstructor"><b>Head Instructor:&nbsp;</b>
-                    <a href="#" onClick={(e) => this.onClick(e, this.props.instructor)}>{this.props.headInstructor}</a>
+                    <a onClick={(e) => this.onClick(e, this.props.instructor)}>{this.props.headInstructor}</a>
                 </div>
 
                 <div className="locationAddress">

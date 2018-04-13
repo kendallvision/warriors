@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom';
 
 import icma from '../images/logo_ICMA.jpg'
 import ifcma from '../images/logo_IFCMA.jpg'

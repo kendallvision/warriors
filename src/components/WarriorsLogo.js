@@ -1,7 +1,4 @@
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom';
-
-import AboutTHWS from './AboutTHWS'
 
 import logo from '../images/logoWarriors.jpg'
 

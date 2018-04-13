@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 import InstructorBio from './InstructorBio'
 
@@ -18,7 +18,7 @@ class JoelGeniesse extends InstructorBio {
                         <div className="appLogo">
                             <div className="appLogo-semantic">
                                 <div id="primaryPicture">
-                                    <img src={JoelPicture1}/>
+                                    <img src={JoelPicture1} alt=""/>
                                 </div>
                             </div>
                         </div>
@@ -59,14 +59,14 @@ class JoelGeniesse extends InstructorBio {
                     <div className="w3-half">
                         <div className="appLogo">
                             <div className="appLogo-semantic">
-                                <img id="joelPicture2" src={JoelPicture2}/>
+                                <img id="joelPicture2" src={JoelPicture2} alt=""/>
                             </div>
                         </div>
                     </div>
                     <div className="w3-half">
                         <div className="appLogo">
                             <div className="appLogo-semantic">
-                                <img id="joelPicture3" src={JoelPicture3}/>
+                                <img id="joelPicture3" src={JoelPicture3} alt=""/>
                             </div>
                         </div>
                     </div>

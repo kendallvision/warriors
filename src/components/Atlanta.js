@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 import GregKendall from './GregKendall'
 import Location from './Location'
