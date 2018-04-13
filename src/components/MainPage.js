@@ -5,7 +5,6 @@ import APEDefense from '../components/APEDefense'
 import Raleigh from '../components/Raleigh'
 import Sanctioned from '../components/Sanctioned'
 import WarriorsLogo from '../components/WarriorsLogo'
-import UnderConstruction from '../components/UnderConstruction'
 import WhatWeTeach from '../components/WhatWeTeach'
 
 import '../styles/w3.css'

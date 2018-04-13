@@ -19,7 +19,7 @@ class AppHeader extends Component {
             <div className="w3-container w3-black">
                 <div className="appHeader">
                     <div id="homeLogo" onClick={(e) => this.onHomeClick(e)}>
-                        <img src={logo}/>
+                        <img src={logo} alt=""/>
                     </div>
                     <div>
                         <h1 className="appHeader-title">Warriors for Christ</h1>

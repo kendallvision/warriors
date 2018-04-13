@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 import InstructorBio from './InstructorBio'
 
@@ -16,7 +16,7 @@ class GregKendall extends InstructorBio {
                         <div className="appLogo">
                             <div className="appLogo-semantic">
                                 <div id="primaryPicture">
-                                    <img src={GregPicture1}/>
+                                    <img src={GregPicture1} alt=""/>
                                 </div>
                             </div>
                         </div>
