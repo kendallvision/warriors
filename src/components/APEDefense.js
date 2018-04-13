@@ -24,7 +24,7 @@ class APEDefense extends Component {
                 </div>
 
                 <div id="contact">
-                    <a href={this.props.infoEmail}>Contact Us To Schedule One</a>
+                    <a href={"mailto:" + this.props.infoEmail + "?subject=APE Defense"}>Contact Us To Schedule One</a>
                 </div>
             </div>
         )
