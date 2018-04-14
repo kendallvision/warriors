@@ -31,26 +31,23 @@ class JoelGeniesse extends InstructorBio {
                             Founder
                         </div>
                         <ul>
-                            <li>Founder of Tao Hsieh Wu Shu and Warriors for Christ</li>
-                            <li>Started training in martial arts (Muay Thai and TKD) in January, 1980</li>
-                            <li>Founder of Tao Hsieh Wu Shu, The Way of Unified Martial Arts, June 2007</li>
-                            <li>Promoted to Master Instructor on June 9th, at the 2007 ICMA National Championships</li>
-                            <li>Bestowed Soke Recognition by the Shihon Counsel of the IFCMA on August 18, 2007</li>
-                            <li>San Dan, 3rd Degree Black Belt, in the art of Niho Kenpo Jujitsu Ryu under Kyoshi Max Andrews</li>
-                            <li>1st Dan Black belt in Tae Kwon Do under Grand Master Pok Shik Yun of the World Tae Kwon Do Federation</li>
-                            <li>Champion at the 2005 ICMA International Tournament (Forms &amp; Sparing)</li>
+                            <li>Shihon (Master), Go Dan, 5th degree Black Belt in Tao Hsieh Wu Shu</li>
+                            <li>San Dan, 3rd degree, Black Belt, in Niho Kempo Jujitsu Ryu under Kyoshi Max Andrews</li>
+                            <li>Il Dan, 1st degree Black Belt in Tae Kwon Do through the World Tae Kwon Do Federation (WTF)</li>
+                            <li>Level 4 (highest rank) in Nin-Po under Shidoshi Eddie Alaniz Sr.</li>
+                            <li>Founder of Warriors for Christ, LLC a 501c3 (non-profit) and President from 2000 to 2012</li>
+                            <li>Founder of Tao Hsieh Wu Shu— “The way of unified martial arts”</li>
+                            <li>On August 18, 2007, granted the title of Soke, or “head of house” by the Shihon Council of the International Fellowship of Christian Martial Arts (IFCMA). This title, in its purest form, can only be given to the founder of a martial art system who has had their system recognized by two or more associations or Soke.</li>
+                            <li>IFCMA Vice President, 2008 to 2010</li>
+                            <li>IFCMA President from 2010 to 2013</li>
+                            <li>IFCMA Certified Master Instructor</li>
+                            <li>radKIDS Certified Instructor</li>
+                            <li>Founder of APE Defense (Awareness Prevention Execution)</li>
                             <li>North Carolina State Champion 1984, 1985, 1986, 1987</li>
-                            <li>NC State Grand Champion (Forms &amp; Sparing) 1986 &amp; 1987.</li>
-                            <li>Junior Olympic National Champion 1987</li>
-                            <li>Qualified for the 1988 U.S.A. Olympic team for Seoul, Korea at Nationals</li>
-                            <li>Won several open, full contact tournaments in the late 1980s thru early 1990s</li>
-                            <li>Member of the International Christian Martial Arts Association (ICMA)</li>
-                            <li>Member of the International Fellowship of Christian Martial Arts (IFCMA)</li>
-                            <li>IFCMA Master Certified Instructor</li>
-                            <li>VP of the IFCMA; 2010-2011 (2-year term)</li>
-                            <li>President of the IFCMA; 2012-2013 (2-year term)</li>
-                            <li>Deacon; Campus Student Ministry</li>
-                            <li>Certified radKIDS instructor</li>
+                            <li>NC State Grand Champion (Forms &amp; Sparing) 1986 &amp; 1987</li>
+                            <li>Junior Olympic National Tae Kwon Do Champion 1987</li>
+                            <li>Made the 1988 U.S.A. Olympic team for Seoul, South Korea</li>
+                            <li>Champion at the 2005 ICMA International Tournament (Forms &amp; Sparring)</li>
                         </ul>
                     </div>
                 </div>
