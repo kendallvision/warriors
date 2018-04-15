@@ -3,6 +3,8 @@ import {Link} from 'react-router-dom'
 
 import GregPicture1 from '../images/senseiKendall.jpg'
 
+import '../styles/Instructor.css'
+
 class GregKendall extends Component {
     render() {
         return (

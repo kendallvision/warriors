@@ -5,6 +5,8 @@ import JoelPicture1 from '../images/sokeGeniesse.jpg'
 import JoelPicture2 from '../images/imgFatherSon.jpg'
 import JoelPicture3 from '../images/imgMastersDemo.jpg'
 
+import '../styles/Instructor.css'
+
 class JoelGeniesse extends Component {
     render() {
         return (
