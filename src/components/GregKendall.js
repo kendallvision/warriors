@@ -1,11 +1,9 @@
-import React from 'react'
+import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
-
-import InstructorBio from './InstructorBio'
 
 import GregPicture1 from '../images/senseiKendall.jpg'
 
-class GregKendall extends InstructorBio {
+class GregKendall extends Component {
     render() {
         return (
             <div className="instructorBio">
