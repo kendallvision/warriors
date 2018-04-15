@@ -10,6 +10,7 @@ npm start
 <h2>Key Technologies Used</h2>
 <ul>
     <li>React</li>
+    <li>React-Routes</li>
     <li>Nodejs</li>
     <li>Javascript/Html/Css</li>
     <li>CircleCi</li>
