@@ -1,8 +1,5 @@
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom';
 import {Link} from 'react-router-dom'
-
-import AboutTHWS from './AboutTHWS'
 
 import '../App.css'
 import '../styles/WhatWeTeach.css'

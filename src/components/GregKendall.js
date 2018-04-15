@@ -1,16 +1,13 @@
-import React, {Component} from 'react'
+import React from 'react'
 import {Link} from 'react-router-dom'
+
+import ScrollTopComponent from '../components/ScrollTopComponent'
 
 import GregPicture1 from '../images/senseiKendall.jpg'
 
 import '../styles/Instructor.css'
 
-class GregKendall extends Component {
-
-    componentDidMount() {
-        window.scroll(0,0);
-    }
-
+class GregKendall extends ScrollTopComponent {
     render() {
         return (
             <div className="instructorBio">

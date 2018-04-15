@@ -1,5 +1,7 @@
-import React, {Component} from 'react'
+import React from 'react'
 import {Link} from 'react-router-dom'
+
+import ScrollTopComponent from '../components/ScrollTopComponent'
 
 import JoelPicture1 from '../images/sokeGeniesse.jpg'
 import JoelPicture2 from '../images/imgFatherSon.jpg'
@@ -7,12 +9,7 @@ import JoelPicture3 from '../images/imgMastersDemo.jpg'
 
 import '../styles/Instructor.css'
 
-class JoelGeniesse extends Component {
-
-    componentDidMount() {
-        window.scroll(0,0);
-    }
-
+class JoelGeniesse extends ScrollTopComponent {
     render() {
         return (
             <div className="instructorBio">

@@ -1,7 +1,4 @@
-import React from 'react'
-
 import Location from './Location'
-import JoelGeniesse from './JoelGeniesse'
 
 class Raleigh extends Location { }
 
