@@ -38,7 +38,7 @@ class GregKendall extends ScrollTopComponent {
                         </div>
                         <ul>
                             <li>Head Instructor of Warriors for Christ, Atlanta</li>
-                            <li>President of Warriors for Christ, Inc - a 501(c)(3) minstry</li>
+                            <li>President of Warriors for Christ, Inc - a 501(c)(3) minstry (2012-present)</li>
                             <li>Sandan (3rd degree) in the art of Tao Hsieh Wu Shu</li>
                             <li>Shodan (1st degree) in the Niho Kai style of Iaido</li>
                             <li>Tao Hsieh Wu Shu Christian Character Award Recipient</li>
