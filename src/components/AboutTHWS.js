@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom';
+import {Link} from 'react-router-dom'
 
 import MainPage from './MainPage'
 
@@ -10,17 +11,11 @@ import logo from '../images/thwslogo.jpg'
 import '../styles/AboutTHWS.css'
 
 class AboutTHWS extends Component {
-
-    onBackClick(event) {
-        window.scroll(0, 0);
-        ReactDOM.render(<MainPage />, document.getElementById('contentRoot'));
-    }
-
     render() {
         return (
             <div className="w3-row-padding">
                 <div id="buttonDiv">
-                    <button onClick={(e) => this.onBackClick(e)}>Home</button>
+                    <Link to="/">Home</Link>
                 </div>
                 <div id="descriptionDiv">
                     <div className="appLogo">
@@ -164,7 +159,7 @@ class AboutTHWS extends Component {
                     </p>
                 </div>
                 <div id="buttonDiv">
-                    <button onClick={(e) => this.onBackClick(e)}>Home</button>
+                    <Link to="/">Home</Link>
                 </div>
             </div>
         );

@@ -19,7 +19,7 @@ Atlanta.defaultProps = {
     registrationOtherFamily: "$5 for each additional family member",
     infoEmail: "mailto:info.atlanta@warriors-for-christ.com?subject=Warriors Martial Arts Classes",
     calendarLink: 'https://tinyurl.com/y9q9ro2m',
-    instructor: <GregKendall />
+    instructor: "/kendallg"
 }
 
 export default Atlanta;

@@ -1,18 +1,11 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom';
+import {Link} from 'react-router-dom'
 
 import '../styles/Locations.css'
 import '../App.css'
 
 class Location extends Component {
-    
-    onClick(event, instructor) {
-        if ( instructor !== '' ) {
-            window.scroll(0, 0);
-            ReactDOM.render(instructor, document.getElementById('contentRoot'));
-        }
-    }
-        
     render() {
         const calendar = this.props.calendarLink === '' ? <div>&nbsp;</div> : <a target="none" href={this.props.calendarLink}>Events Calendar</a>;
 
@@ -22,7 +15,7 @@ class Location extends Component {
                 <h3>{this.props.locationTown} Location</h3>
 
                 <div className="headInstructor"><b>Head Instructor:&nbsp;</b>
-                    <a onClick={(e) => this.onClick(e, this.props.instructor)}>{this.props.headInstructor}</a>
+                    <Link to={this.props.instructor}>{this.props.headInstructor}</Link>
                 </div>
 
                 <div className="locationAddress">
