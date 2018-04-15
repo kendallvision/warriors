@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Route, HashRouter } from "react-router-dom";
   
+import AboutTHWS from './components/AboutTHWS';
 import AppHeader from './components/AppHeader'
+import GregKendall from './components/GregKendall';
+import JoelGeniesse from './components/JoelGeniesse';
 import MainPage from './components/MainPage'
 
 import './App.css';
-import GregKendall from './components/GregKendall';
-import JoelGeniesse from './components/JoelGeniesse';
-import AboutTHWS from './components/AboutTHWS';
 
 class App extends Component {
   render() {
