@@ -1,10 +1,15 @@
 .sanctioned {
     min-height: 150px;
     max-height: 600px;
+    max-width: 300px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    margin-left: -150px;
 }
 
 .sanctioned h2 {
-    font-size: 14pt;
+    font-size: 13pt;
 }
 
 .sanctioned p {
