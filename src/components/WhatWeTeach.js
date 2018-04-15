@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom';
+import {Link} from 'react-router-dom'
 
 import AboutTHWS from './AboutTHWS'
 
@@ -7,12 +8,6 @@ import '../App.css'
 import '../styles/WhatWeTeach.css'
 
 class WhatWeTeach extends Component {
-
-    onLearnMoreClick(event) {
-        window.scroll(0, 0);
-        ReactDOM.render(<AboutTHWS />, document.getElementById('contentRoot'));
-    }
-
     render() {
         return (
             <div className="infoSection whatWeTeach">
@@ -35,7 +30,7 @@ class WhatWeTeach extends Component {
                 <p>
                     Our martial arts style is <b>Tao Hsieh Wu Shu</b>
                 </p>
-                <a onClick={(e) => this.onLearnMoreClick(e)}>Learn More</a>
+                <Link to ="/about">Learn More</Link>
             </div>
         )
     }

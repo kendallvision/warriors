@@ -19,7 +19,7 @@ Raleigh.defaultProps = {
     registrationOtherFamily: "$10 for each additional family member",
     infoEmail: "mailto:info.raleigh@warriors-for-christ.com?subject=Warriors Martial Arts Classes",
     calendarLink: '',
-    instructor: <JoelGeniesse />
+    instructor: "/geniessej"
 }
 
 export default Raleigh;
