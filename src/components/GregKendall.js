@@ -6,6 +6,11 @@ import GregPicture1 from '../images/senseiKendall.jpg'
 import '../styles/Instructor.css'
 
 class GregKendall extends Component {
+
+    componentDidMount() {
+        window.scroll(0,0);
+    }
+
     render() {
         return (
             <div className="instructorBio">

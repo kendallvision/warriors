@@ -11,6 +11,11 @@ import logo from '../images/thwslogo.jpg'
 import '../styles/AboutTHWS.css'
 
 class AboutTHWS extends Component {
+
+    componentDidMount() {
+        window.scroll(0,0);
+    }
+
     render() {
         return (
             <div className="w3-row-padding">

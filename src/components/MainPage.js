@@ -10,6 +10,11 @@ import WhatWeTeach from '../components/WhatWeTeach'
 import '../styles/w3.css'
 
 class MainPage extends Component {
+
+    componentDidMount() {
+        window.scroll(0,0);
+    }
+
     render() {
         return (
             <div id="mainPage">

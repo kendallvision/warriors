@@ -8,6 +8,11 @@ import JoelPicture3 from '../images/imgMastersDemo.jpg'
 import '../styles/Instructor.css'
 
 class JoelGeniesse extends Component {
+
+    componentDidMount() {
+        window.scroll(0,0);
+    }
+
     render() {
         return (
             <div className="instructorBio">
