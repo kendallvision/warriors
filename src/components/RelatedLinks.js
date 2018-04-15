@@ -10,7 +10,7 @@ class RelatedLinks extends Component {
         return (
             <div className="infoSection relatedLinks">
                 <h2>Related Links</h2>
-                <h3>Check out these other fantastic organizations:</h3>
+                <h3>Check out these other great organizations:</h3>
                 <div id="links">
                     <ul>
                         <li><ExternalLink href="http://www.brooks.org/" desc="Brooks Ave Church of Christ" /></li>
