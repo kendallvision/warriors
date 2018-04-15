@@ -1,8 +1,5 @@
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom';
 import {Link} from 'react-router-dom'
-
-import MainPage from './MainPage'
 
 import title from '../images/titleTaoHsiehWuShu.jpg'
 import kanji from '../images/kanji.jpg'

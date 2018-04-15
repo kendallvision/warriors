@@ -1,20 +1,16 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 import Atlanta from '../components/Atlanta'
 import APEDefense from '../components/APEDefense'
 import Raleigh from '../components/Raleigh'
 import Sanctioned from '../components/Sanctioned'
+import ScrollTopComponent from '../components/ScrollTopComponent'
 import WarriorsLogo from '../components/WarriorsLogo'
 import WhatWeTeach from '../components/WhatWeTeach'
 
 import '../styles/w3.css'
 
-class MainPage extends Component {
-
-    componentDidMount() {
-        window.scroll(0,0);
-    }
-
+class MainPage extends ScrollTopComponent {
     render() {
         return (
             <div id="mainPage">
