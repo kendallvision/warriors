@@ -1,11 +1,6 @@
 .sanctioned {
-    background-color: #DEDEDE;
-    border-radius: 10px;
-    padding: 1px 10px;
-    min-height: 275px;
+    min-height: 150px;
     max-height: 600px;
-    font-size: 10pt;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .sanctioned h2 {
@@ -17,14 +12,11 @@
 }
 
 .sanctionedImages {
-    margin-top: 10px;
-    text-align: center;
-    padding: 10px 0;
     max-width: 400px;
 }
 
 .sanctionedImages img {
-    max-width: 150px;
+    max-width: 125px;
     min-width: 50px;
     padding: 5px;
     margin: 3px;

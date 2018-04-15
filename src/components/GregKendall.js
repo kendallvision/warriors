@@ -14,6 +14,7 @@ class GregKendall extends ScrollTopComponent {
                 <div id="buttonDiv">
                     <Link to="/">Home</Link>
                 </div>
+                
                 <div className="w3-row-padding">
                     <div className="w3-quarter">
                         <div className="appLogo">

@@ -3,6 +3,7 @@ import React from 'react'
 import Atlanta from '../components/Atlanta'
 import APEDefense from '../components/APEDefense'
 import Raleigh from '../components/Raleigh'
+import RelatedLinks from '../components/RelatedLinks'
 import Sanctioned from '../components/Sanctioned'
 import ScrollTopComponent from '../components/ScrollTopComponent'
 import WarriorsLogo from '../components/WarriorsLogo'
@@ -34,6 +35,12 @@ class MainPage extends ScrollTopComponent {
                         <APEDefense />
                     </div>
                     <div className="w3-third">
+                        <RelatedLinks />
+                    </div>
+                </div>
+
+                <div className="w3-row-padding">
+                    <div className="w3-whole">
                         <Sanctioned />
                     </div>
                 </div>
