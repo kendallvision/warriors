@@ -44,10 +44,10 @@ class GregKendall extends InstructorBio {
                             <li>Close Quarter Combat Certificate (Level 1)</li>
                             <li>Warriors for Christ Board of Directors</li>
                             <li>IFCMA Board of Directors - Missions 2012-2013 (2-year term)</li>
-                            <li>Deacon; Warriors for Christ Ministry</li>
+                            <li>Deacon; Warriors for Christ Ministry 2014-2017</li>
                             <li>5th Gup Jeok Tong Je (Hostile Control) Hapkido</li>
                             <li>Certified A.P.E. Defense instructor</li>
-                            <li>Grand Champion IFCMA National Tournament</li>
+                            <li>Grand Champion IFCMA National Tournament 2013</li>
                         </ul>
                     </div>
                 </div>
