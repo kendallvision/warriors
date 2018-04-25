@@ -14,7 +14,7 @@ npm start
     <li>Nodejs</li>
     <li>Javascript/Html/Css</li>
     <li>CircleCi</li>
-    <li>Heroku</li>
+    <li>Firebase (hosting)</li>
     <li>W3 for Responsiveness</li>
     <li>Create-React-App</li>
 </ul>
