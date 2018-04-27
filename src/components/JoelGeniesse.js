@@ -9,7 +9,7 @@ import JoelPicture3 from '../images/imgMastersDemo.jpg'
 
 import '../styles/Instructor.css'
 
-class JoelGeniesse extends ScrollTopComponent {
+export default class JoelGeniesse extends ScrollTopComponent {
     render() {
         return (
             <div className="instructorBio">
@@ -78,6 +78,4 @@ class JoelGeniesse extends ScrollTopComponent {
             </div>
         )
     }
-}
-
-export default JoelGeniesse;
+};

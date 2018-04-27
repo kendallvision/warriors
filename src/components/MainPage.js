@@ -11,7 +11,7 @@ import WhatWeTeach from '../components/WhatWeTeach'
 
 import '../styles/w3.css'
 
-class MainPage extends ScrollTopComponent {
+export default class MainPage extends ScrollTopComponent {
     render() {
         return (
             <div id="mainPage">
@@ -47,6 +47,4 @@ class MainPage extends ScrollTopComponent {
             </div>
         );
     }
-}
-
-export default MainPage;
+};

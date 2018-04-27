@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import '../styles/APEDefense.css'
 
-class APEDefense extends Component {
+export default class APEDefense extends Component {
 
     render() {
         return (
@@ -29,10 +29,8 @@ class APEDefense extends Component {
             </div>
         )
     }
-}
+};
 
 APEDefense.defaultProps = {
     infoEmail: 'info@warriors-for-christ.com'
-}
-
-export default APEDefense;
+};

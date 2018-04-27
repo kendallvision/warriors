@@ -5,7 +5,7 @@ import ExternalLink from './ExternalLink'
 import '../App.css'
 import '../styles/RelatedLinks.css'
 
-class RelatedLinks extends Component {
+export default class RelatedLinks extends Component {
     render() {
         return (
             <div className="infoSection relatedLinks">
@@ -26,6 +26,4 @@ class RelatedLinks extends Component {
             </div>
         )
     }
-}
-
-export default RelatedLinks;
+};

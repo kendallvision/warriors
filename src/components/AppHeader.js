@@ -5,7 +5,7 @@ import logo from '../images/logoWarriorsSmall.jpg'
 
 import '../styles/AppHeader.css';
 
-class AppHeader extends Component {
+export default class AppHeader extends Component {
     render() {
         return (
             <div className="w3-container w3-black">
@@ -21,6 +21,4 @@ class AppHeader extends Component {
             </div>
         );
     }
-}
-
-export default AppHeader;
+};
