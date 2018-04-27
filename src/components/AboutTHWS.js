@@ -7,7 +7,7 @@ import logo from '../images/thwslogo.jpg'
 
 import '../styles/AboutTHWS.css'
 
-class AboutTHWS extends Component {
+export default class AboutTHWS extends Component {
 
     componentDidMount() {
         window.scroll(0,0);
@@ -166,6 +166,4 @@ class AboutTHWS extends Component {
             </div>
         );
     }
-}
-
-export default AboutTHWS;
+};

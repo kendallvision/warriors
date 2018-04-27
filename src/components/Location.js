@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 import '../styles/Locations.css'
 import '../App.css'
 
-class Location extends Component {
+export default class Location extends Component {
     render() {
         const calendar = this.props.calendarLink === '' ? <div>&nbsp;</div> : <a target="none" href={this.props.calendarLink}>Events Calendar</a>;
 
@@ -47,6 +47,4 @@ class Location extends Component {
             </div>
         )
     }
-}
-
-export default Location;
+};

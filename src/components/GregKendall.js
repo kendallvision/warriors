@@ -7,7 +7,7 @@ import GregPicture1 from '../images/senseiKendall.jpg'
 
 import '../styles/Instructor.css'
 
-class GregKendall extends ScrollTopComponent {
+export default class GregKendall extends ScrollTopComponent {
     render() {
         return (
             <div className="instructorBio">
@@ -61,6 +61,4 @@ class GregKendall extends ScrollTopComponent {
             </div>
         )
     }
-}
-
-export default GregKendall;
+};

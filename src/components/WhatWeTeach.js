@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 import '../App.css'
 import '../styles/WhatWeTeach.css'
 
-class WhatWeTeach extends Component {
+export default class WhatWeTeach extends Component {
     render() {
         return (
             <div className="infoSection whatWeTeach">
@@ -31,6 +31,4 @@ class WhatWeTeach extends Component {
             </div>
         )
     }
-}
-
-export default WhatWeTeach;
+};

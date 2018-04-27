@@ -1,6 +1,6 @@
 import Location from './Location'
 
-class Raleigh extends Location { }
+export default class Raleigh extends Location { }
 
 Raleigh.defaultProps = {
     locationTown: "Raleigh",
@@ -17,6 +17,4 @@ Raleigh.defaultProps = {
     infoEmail: "mailto:info.raleigh@warriors-for-christ.com?subject=Warriors Martial Arts Classes",
     calendarLink: '',
     instructor: "/geniessej"
-}
-
-export default Raleigh;
+};

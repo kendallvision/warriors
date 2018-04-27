@@ -6,7 +6,7 @@ import ifcma from '../images/logo_IFCMA.jpg'
 import '../App.css'
 import '../styles/Sanctioned.css'
 
-class Sanctioned extends Component {
+export default class Sanctioned extends Component {
     render() {
         return (
             <div className="infoSection sanctioned">
@@ -20,6 +20,4 @@ class Sanctioned extends Component {
             </div>
         )
     }
-}
-
-export default Sanctioned;
+};

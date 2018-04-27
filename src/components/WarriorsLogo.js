@@ -4,7 +4,7 @@ import logo from '../images/logoWarriors.jpg'
 
 import '../App.css';
 
-class WarriorsLogo extends Component {
+export default class WarriorsLogo extends Component {
     render() {
         return (
             <div className="mainLogo">
@@ -16,6 +16,4 @@ class WarriorsLogo extends Component {
             </div>
         );
     }
-}
-
-export default WarriorsLogo;
+};

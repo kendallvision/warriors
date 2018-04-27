@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import '../styles/UnderConstruction.css'
 
-class UnderConstruction extends Component {
+export default class UnderConstruction extends Component {
     render() {
         return (
             <div id="underConstruction">
@@ -10,6 +10,4 @@ class UnderConstruction extends Component {
             </div>
         );
     }
-}
-
-export default UnderConstruction;
+};
