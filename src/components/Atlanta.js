@@ -9,7 +9,7 @@ Atlanta.defaultProps = {
     locationName: "Gwinnett Church of Christ",
     address1: "1736 Sever Rd",
     cityStateZip: "Lawrenceville, GA 30043",
-    classTimes:"Thursdays at 6pm",
+    classTimes:"Thursdays at 6-7pm",
     registrationStatus: "Currently accepting new students (ages 7 and up)",
     registrationPrice: "Registration $50 (includes 1st month & uniform)",
     registrationMonthly: "Monthly dues $25 for first student",
