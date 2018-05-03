@@ -10,7 +10,7 @@ Atlanta.defaultProps = {
     address1: "1736 Sever Rd",
     cityStateZip: "Lawrenceville, GA 30043",
     classTimes:"Thursdays at 6pm",
-    registrationStatus: "Currently accepting new students",
+    registrationStatus: "Currently accepting new students (ages 7 and up)",
     registrationPrice: "Registration $50 (includes 1st month & uniform)",
     registrationMonthly: "Monthly dues $25 for first student",
     registrationOtherFamily: "$5 for each additional family member",
