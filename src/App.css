@@ -3,13 +3,6 @@
   width: 100%;
 }
 
-.App-header {
-  background-color: #222;
-  height: 75px;
-  padding: 20px;
-  color: white;
-}
-
 .App-intro {
   font-size: 2vw;
 }
@@ -34,36 +27,37 @@
 
 .infoSection {
   margin: 10px 0;
-  background-color: #DEDEDE;
+  background-image: linear-gradient(#cdcdcd, #efefef);
   border-radius: 10px;
-  padding: 1px 10px;
+  padding: 1px 10px 5px 10px;
   min-height: 325px;
   max-height: 600px;
+  box-shadow: 1px 1px #333;
 }
 
 .infoSection h2 {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   margin-bottom: 0;
   color: darkblue;
 }
 
 .infoSection h3 {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   margin-bottom: 0;
   color: darkblue;
 }
 
 .infoSection h4 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 12pt;
   font-weight: bold;
   margin: 0;
 }
 
 .infoSection p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Helvetica, sans-serif;
 }
 
 .infoSection a {
@@ -81,4 +75,10 @@
 
 .mainLogo {
   padding: 25px 0;
+}
+
+.mailingListLink {
+  text-align: center;
+  margin-top: 40px;
+  display: none;
 }

@@ -5,18 +5,13 @@ import AboutTHWS from './components/AboutTHWS';
 import AppHeader from './components/AppHeader'
 import GregKendall from './components/GregKendall';
 import JoelGeniesse from './components/JoelGeniesse';
-import MainPage from './components/MainPage'
+import MailingList from './components/MailingList';
+import MainPage from './components/MainPage';
 
 import './App.css';
 
 export default class App extends Component {
-
-  componentDidMount() {
-    console.log('Location: ' + window.location);
-  }
-
   render() {
-
     var redirect = '';
 
     if ( window.location.hostname === 'taohsiehwushu.com' 
@@ -33,6 +28,7 @@ export default class App extends Component {
               <Route path="/kendallg" component={GregKendall}/>
               <Route path="/geniessej" component={JoelGeniesse}/>
               <Route path="/about" component={AboutTHWS}/>
+              <Route path="/mailingList" component={MailingList}/>
             </div>        
             {redirect}
           </div>

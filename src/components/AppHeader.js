@@ -8,7 +8,7 @@ import '../styles/AppHeader.css';
 export default class AppHeader extends Component {
     render() {
         return (
-            <div className="w3-container w3-black">
+            <div id="App-Header-Main" className="w3-container">
                 <div className="appHeader">
                     <div id="homeLogo">
                         <Link to ="/"><img src={logo} alt=""/></Link>
