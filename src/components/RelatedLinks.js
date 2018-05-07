@@ -20,6 +20,7 @@ export default class RelatedLinks extends Component {
                         <li><ExternalLink href="http://www.ezprints.com" desc="EZ Prints" /></li>
                         <li><ExternalLink href="https://www.bigpeachrunningco.com/" desc="Big Peach Running Stores" /></li>
                         <li><ExternalLink href="http://www.atnipphotography.com/" desc="Atnip Photography" /></li>
+                        <li><ExternalLink href="https://tysteeleband.com/" desc="Ty Steele Band" /></li>
                     </ul>
                 </div>
             </div>
