@@ -82,3 +82,9 @@
 .mainLogo {
   padding: 25px 0;
 }
+
+.mailingListLink {
+  text-align: center;
+  margin-top: 40px;
+  display: none;
+}
