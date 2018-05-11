@@ -26,7 +26,7 @@ export default class Location extends Component {
                         </h5>
                     </a>
                 </div>
-                <h4>Classes held {this.props.classTimes}</h4>
+                <h4>{this.props.classTimes}</h4>
                 <div>
                     {calendar}
                 </div>

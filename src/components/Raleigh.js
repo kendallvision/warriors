@@ -9,7 +9,7 @@ Raleigh.defaultProps = {
     locationName: "Brooks Ave Church of Christ",
     address1: "700 Brooks Ave",
     cityStateZip: "Raleigh, NC 27607",
-    classTimes:"Tuesdays at 6-7:30pm",
+    classTimes:"Classes offered Tuesdays at 6-7:30pm",
     registrationStatus: "Email us to be added to our new student waiting list",
     registrationPrice: "Registration $50 (includes 1st month & uniform)",
     registrationMonthly: "Monthly dues $30 for first student",
