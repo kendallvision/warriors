@@ -46,6 +46,7 @@ export default class GregKendall extends ScrollTopComponent {
                             <li>IFCMA Certified Senior Instructor (SIC course)</li>
                             <li>Close Quarter Combat Certificate (Level 1)</li>
                             <li>Warriors for Christ Board of Directors</li>
+                            <li>IFCMA Board of Directors - Vice President 2018-2020 (2 year term)</li>
                             <li>IFCMA Board of Directors - Missions 2012-2013 (2-year term)</li>
                             <li>Deacon; Warriors for Christ Ministry 2014-2017</li>
                             <li>5th Gup Jeok Tong Je (Hostile Control) Hapkido</li>
