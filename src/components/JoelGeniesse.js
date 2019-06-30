@@ -34,7 +34,7 @@ export default class JoelGeniesse extends ScrollTopComponent {
                             Founder
                         </div>
                         <ul>
-                            <li>Shihon (Master), Go Dan, 5th degree Black Belt in Tao Hsieh Wu Shu</li>
+                            <li>Shihon (Master), Roku Dan, 6th degree Black Belt in Tao Hsieh Wu Shu</li>
                             <li>San Dan, 3rd degree, Black Belt, in Niho Kempo Jujitsu Ryu under Kyoshi Max Andrews</li>
                             <li>Il Dan, 1st degree Black Belt in Tae Kwon Do through the World Tae Kwon Do Federation (WTF)</li>
                             <li>Level 4 (highest rank) in Nin-Po under Shidoshi Eddie Alaniz Sr.</li>
