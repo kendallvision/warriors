@@ -27,20 +27,19 @@ export default class GregKendall extends ScrollTopComponent {
                     </div>
                     <div className="w3-threequarter">
                         <div id="instructorName">
-                            Greg Kendall, Sensei
+                            Greg Kendall, Master
                         </div>
                         <div>
                             <p>
                                 Let's dream so big in our lives that God has to be involved to realize them.  
-                                We are tied to the past.  It makes us an important link to the future.  That future 
-                                is worth fighting for.  Dream for a big future.  
+                                We are tied to the past.  It makes us an important link to the future.  Dream for a big future.  
                                 Don't limit what God can accomplish through you.
                             </p>
                         </div>
                         <ul>
                             <li>Head Instructor of Warriors for Christ, Atlanta</li>
                             <li>President of Warriors for Christ, Inc - a 501(c)(3) minstry (2012-present)</li>
-                            <li>Sandan (3rd degree) in the art of Tao Hsieh Wu Shu</li>
+                            <li>Shihon (master) (4th degree) in the art of Tao Hsieh Wu Shu</li>
                             <li>Shodan (1st degree) in the Niho Kai style of Iaido</li>
                             <li>Tao Hsieh Wu Shu Christian Character Award Recipient</li>
                             <li>IFCMA Certified Senior Instructor (SIC course)</li>
@@ -50,6 +49,7 @@ export default class GregKendall extends ScrollTopComponent {
                             <li>IFCMA Board of Directors - Missions 2012-2013 (2-year term)</li>
                             <li>Deacon; Warriors for Christ Ministry 2014-2017</li>
                             <li>5th Gup Jeok Tong Je (Hostile Control) Hapkido</li>
+                            <li>Hapkido Brown Belt - Master Academy</li>
                             <li>Certified A.P.E. Defense instructor</li>
                             <li>Grand Champion IFCMA National Tournament 2013</li>
                         </ul>
