@@ -27,7 +27,7 @@ export default class GregKendall extends ScrollTopComponent {
                     </div>
                     <div className="w3-threequarter">
                         <div id="instructorName">
-                            Greg Kendall, Master
+                            Shihon Greg Kendall, Master
                         </div>
                         <div>
                             <p>
