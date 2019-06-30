@@ -28,7 +28,7 @@ export default class JoelGeniesse extends ScrollTopComponent {
                     </div>
                     <div className="w3-threequarter">
                         <div id="instructorName">
-                            Shihon Joel Geniesse, Soke
+                            Kyoju Joel Geniesse, Soke
                         </div>
                         <div id="instructorSubName">
                             Founder
