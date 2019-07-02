@@ -9,12 +9,12 @@ Atlanta.defaultProps = {
     locationName: "Gwinnett Church of Christ",
     address1: "1736 Sever Rd",
     cityStateZip: "Lawrenceville, GA 30043",
-    classTimes:"Not currently offering classes",
+    classTimes:"Classes: Not currently offering classes",
     registrationStatus: "Email us to be added to our new student waiting list",
     registrationPrice: "Registration $50 (includes 1st month & uniform)",
-    registrationMonthly: "Monthly dues $25 for first student",
-    registrationOtherFamily: "$5 for each additional family member",
+    registrationMonthly: "Monthly dues $30 for first student",
+    registrationOtherFamily: "$10 for each additional family member",
     infoEmail: "mailto:info.atlanta@warriors-for-christ.com?subject=Warriors Martial Arts Classes",
-    calendarLink: 'https://tinyurl.com/y9q9ro2m',
+    calendarLink: '',
     instructor: "/kendallg"
 };
