@@ -10,8 +10,12 @@
   "scripts": {
     "build": "polymer build",
     "deploy": "npm run build && firebase deploy --project warriorsforchrist2007",
-    "start": "node server.js",
-    "watch:pack": "webpack --config webpack.config.js"
+    "start": "nodemon --inspect ./server.js",
+    "watch:components": "onchange 'src/components/*.ts' -- npm run build",
+    "watch:pack": "webpack --config webpack.config.js",
+    "watch:ux": "onchange '*.html' -- npm run build",
+    "watch": "concurrently --kill-others \"npm start\" \"npm run watch:pack\" \"npm run watch:ux\" \"npm run watch:components\"",
+    "finder": "ps aux | grep 'node --inspect'"
   },
   "browserslist": [
     ">0.2%",
@@ -24,6 +28,7 @@
     "@types/node": "^12.0.12",
     "concurrently": "^4.1.1",
     "firebase-tools": "^7.0.2",
+    "onchange": "^6.0.0",
     "ts-loader": "^6.0.4",
     "typescript": "^3.5.2",
     "webpack": "^4.35.2",

@@ -5,7 +5,7 @@ export class MainApp extends LitElement {
     render() {
         return html `
             <div>
-                Place main application here.
+                Place application components here.
             </div>
         `
     }
