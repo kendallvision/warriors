@@ -11,6 +11,7 @@ staticPaths.push('components');
 staticPaths.push('node_modules');
 staticPaths.push('build');
 staticPaths.push('public');
+staticPaths.push('src/images');
 staticPaths.push('');
 
 staticPaths.forEach((x) => {

@@ -94,7 +94,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\n__webpack_require__(/*! ./src/components/main-app.ts */ \"./src/components/main-app.ts\");\n\n\n//# sourceURL=webpack:///./index.ts?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\n__webpack_require__(/*! ./src/components/main-app.ts */ \"./src/components/main-app.ts\");\n__webpack_require__(/*! ./src/components/app-header.ts */ \"./src/components/app-header.ts\");\n\n\n//# sourceURL=webpack:///./index.ts?");
 
 /***/ }),
 
@@ -302,6 +302,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
+/***/ "./src/components/app-header.ts":
+/*!**************************************!*\
+  !*** ./src/components/app-header.ts ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nvar __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {\n    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;\n    if (typeof Reflect === \"object\" && typeof Reflect.decorate === \"function\") r = Reflect.decorate(decorators, target, key, desc);\n    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;\n    return c > 3 && r && Object.defineProperty(target, key, r), r;\n};\nvar __metadata = (this && this.__metadata) || function (k, v) {\n    if (typeof Reflect === \"object\" && typeof Reflect.metadata === \"function\") return Reflect.metadata(k, v);\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\nconst lit_element_1 = __webpack_require__(/*! lit-element */ \"./node_modules/lit-element/lit-element.js\");\nlet AppHeader = class AppHeader extends lit_element_1.LitElement {\n    constructor() {\n        super(...arguments);\n        this.title = '';\n        this.logoUrl = '';\n        this.slogan = '';\n    }\n    render() {\n        return lit_element_1.html `\n            <link rel=\"stylesheet\" href=\"https://www.w3schools.com/w3css/4/w3.css\">\n\n            <div class=\"app-header-main w3-container\">\n                <div class=\"app-header\">\n                    <div class=\"app-header-logo\">\n                        <img src=\"${this.logoUrl}\" alt=\"${this.title}\"/>\n                    </div>\n                    <div>\n                        <h1 class=\"app-header-title\">${this.title}</h1>\n                        <p>${this.slogan}</p>\n                    </div>\n                </div>\n            </div>\n        `;\n    }\n};\nAppHeader.styles = lit_element_1.css `\n        .app-header-main {\n            background-image: linear-gradient(#2a2a2a, black);\n            color: white;\n        }\n\n        .app-header {\n            height: 80px;\n            width: 100%;\n        }\n\n        .app-header p {\n            margin: 0;\n            font-size: 10pt;\n            color: #ccc;\n        }\n  \n        .app-header-title {\n            font-size: 1.75em;\n            margin-bottom: 0;\n        }\n\n        .app-header-logo {\n            float: left;\n            margin-right: 10px;\n            background-color: white;\n            padding: 3px;\n            cursor: pointer;\n        }\n\n        .app-header-logo img {\n            width: 55px;\n        }\n    `;\n__decorate([\n    lit_element_1.property({ type: String }),\n    __metadata(\"design:type\", String)\n], AppHeader.prototype, \"title\", void 0);\n__decorate([\n    lit_element_1.property({ type: String }),\n    __metadata(\"design:type\", String)\n], AppHeader.prototype, \"logoUrl\", void 0);\n__decorate([\n    lit_element_1.property({ type: String }),\n    __metadata(\"design:type\", String)\n], AppHeader.prototype, \"slogan\", void 0);\nAppHeader = __decorate([\n    lit_element_1.customElement('app-header')\n], AppHeader);\nexports.AppHeader = AppHeader;\n\n\n//# sourceURL=webpack:///./src/components/app-header.ts?");
+
+/***/ }),
+
 /***/ "./src/components/main-app.ts":
 /*!************************************!*\
   !*** ./src/components/main-app.ts ***!
@@ -310,7 +322,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nvar __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {\n    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;\n    if (typeof Reflect === \"object\" && typeof Reflect.decorate === \"function\") r = Reflect.decorate(decorators, target, key, desc);\n    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;\n    return c > 3 && r && Object.defineProperty(target, key, r), r;\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\nconst lit_element_1 = __webpack_require__(/*! lit-element */ \"./node_modules/lit-element/lit-element.js\");\nlet MainApp = class MainApp extends lit_element_1.LitElement {\n    render() {\n        return lit_element_1.html `\n            <div>\n                Place application components here.\n            </div>\n        `;\n    }\n};\nMainApp = __decorate([\n    lit_element_1.customElement('main-app')\n], MainApp);\nexports.MainApp = MainApp;\n\n\n//# sourceURL=webpack:///./src/components/main-app.ts?");
+eval("\nvar __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {\n    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;\n    if (typeof Reflect === \"object\" && typeof Reflect.decorate === \"function\") r = Reflect.decorate(decorators, target, key, desc);\n    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;\n    return c > 3 && r && Object.defineProperty(target, key, r), r;\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\nconst lit_element_1 = __webpack_require__(/*! lit-element */ \"./node_modules/lit-element/lit-element.js\");\nlet MainApp = class MainApp extends lit_element_1.LitElement {\n    render() {\n        return lit_element_1.html `\n            <div class=\"main-app\">\n                <app-header \n                    title=\"Warriors for Christ\"\n                    slogan=\"Christian Ministries through Martial Arts\"\n                    logoUrl=\"/src/images/logoWarriors.jpg\">\n                </app-header>\n            </div>\n        `;\n    }\n};\nMainApp.styles = lit_element_1.css `\n        .main-app {\n            min-height: 600px;\n        }\n    `;\nMainApp = __decorate([\n    lit_element_1.customElement('main-app')\n], MainApp);\nexports.MainApp = MainApp;\n\n\n//# sourceURL=webpack:///./src/components/main-app.ts?");
 
 /***/ })
 
