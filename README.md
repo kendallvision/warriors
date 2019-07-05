@@ -1,9 +1,10 @@
 # Warriors for Christ
-    The purpose of this application is to provide a basic website for <a href="https://www.warriors-for-christ.com">Warriors-For-Christ</a> that allows content editing using MarkedDown files.
+
+The purpose of this application is to provide a basic website for <a href="https://www.warriors-for-christ.com">Warriors-For-Christ</a> that allows content editing using MarkedDown files.
 
 ## Getting Started
 ```
-npm install<br/>
+npm install
 npm start
 ```
 
