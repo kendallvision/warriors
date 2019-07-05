@@ -1,23 +1,12 @@
 {
   "name": "warriors",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "private": true,
-  "dependencies": {
-    "ajv": "^6.5.4",
-    "hoek": "^5.0.4",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
-    "react-mailchimp-subscribe": "^2.1.0",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "^3.0.1",
-    "handlebars": ">=4.1.0"
-  },
+  "dependencies": {},
   "scripts": {
-    "build": "react-scripts build",
+    "build": "polymer build",
     "deploy": "npm run build && firebase deploy --project warriorsforchrist2007",
-    "eject": "react-scripts eject",
-    "start": "react-scripts start",
-    "test": "react-scripts test --env=jsdom"
+    "start": "node server.js"
   },
   "browserslist": [
     ">0.2%",
