@@ -4,7 +4,7 @@ The purpose of this application is to provide a basic website for <a href="https
 ## Getting Started
 ```
 npm install
-npm start
+npm run watch
 ```
 
 ## Key Technologies Used
