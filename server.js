@@ -4,6 +4,11 @@ const path = require('path');
 
 const PORT = process.env.PORT || 3010;
 
+// Default
+app.get('/', (req, res) => {
+    res.sendfile('index.html', {root: 'build/es6prod/public'});
+})
+
 // Static path configuration
 let staticPaths = [];
 staticPaths.push('css');
