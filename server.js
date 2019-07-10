@@ -1,10 +1,13 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+const morgan = require('morgan');
 
 const PORT = process.env.PORT || 3010;
 
-// Default
+app.use(morgan('tiny'));
+
+// Default page
 app.get('/', (req, res) => {
     res.sendfile('index.html', {root: 'build/es6prod/public'});
 })

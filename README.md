@@ -15,3 +15,4 @@ npm run watch
 * Firebase (hosting)
 * W3 (responsiveness)
 * Markdown
+* Morgan (logging middleware)
