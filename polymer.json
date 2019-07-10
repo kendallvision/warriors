@@ -8,6 +8,7 @@
       "node_modules/@webcomponents/webcomponentsjs/*.js",
       "node_modules/@webcomponents/webcomponentsjs/bundles/**",
       "node_modules/lit-element/**",
+      "node_modules/@polymer/markdown-element/**",
       "src/images/**",
       "public/favicon.ico",
       "public/manifest.json"

@@ -1,4 +1,6 @@
 import {LitElement, html, css, customElement, property} from 'lit-element'
+import '@polymer/marked-element/marked-element.js'
+import { Z_BLOCK } from 'zlib';
 
 @customElement('markdown-section')
 export class MarkdownSection extends LitElement {
@@ -19,7 +21,19 @@ export class MarkdownSection extends LitElement {
     render() {
         return html`
             <div class="main">
-                Place section here
+                <marked-element>
+                    <div slot="markdown-html"></div>
+                    <script type="text/markdown">
+                        # Sample
+                        This is the sample markdown.
+                        * Here is a list item
+                        * Here is another.
+
+                        \`\`\`
+                            And this is a code block
+                        \`\`\`
+                    </script>
+                </marked-element>
             </div>
         `
     }

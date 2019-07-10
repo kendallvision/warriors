@@ -3,6 +3,8 @@
   "version": "2.0.0",
   "private": true,
   "dependencies": {
+    "@polymer/marked-element": "^3.0.1",
+    "@polymer/polymer": "^3.3.0",
     "@webcomponents/webcomponentsjs": "^2.2.10",
     "express": "^4.17.1",
     "lit-element": "^2.2.0"
@@ -10,7 +12,7 @@
   "scripts": {
     "build": "polymer build",
     "deploy": "npm run build && firebase deploy --project warriorsforchrist2007",
-    "start": "nodemon --inspect ./server.js",
+    "start": "nodemon --inspect ./server.js --delay 2.0",
     "watch:components": "onchange 'src/components/*.ts' -- npm run build",
     "watch:pack": "webpack --config webpack.config.js",
     "watch:ux": "onchange '*.html' -- npm run build",
