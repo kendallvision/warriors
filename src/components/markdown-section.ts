@@ -1,6 +1,5 @@
 import {LitElement, html, css, customElement, property} from 'lit-element'
 import '@polymer/marked-element/marked-element.js'
-import { Z_BLOCK } from 'zlib';
 
 @customElement('markdown-section')
 export class MarkdownSection extends LitElement {
