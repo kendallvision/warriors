@@ -2,8 +2,13 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const morgan = require('morgan');
+const cors = require('cors'); // for cors handling in development
 
 const PORT = process.env.PORT || 3010;
+
+app.use(cors({
+    origin: 'localhost:' + PORT
+}))
 
 app.use(morgan('tiny'));
 
