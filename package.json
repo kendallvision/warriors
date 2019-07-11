@@ -29,6 +29,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "firebase-tools": "^7.0.2"
+    "firebase-tools": "^7.0.2",
+    "webpack": "4.29.6"
   }
 }
