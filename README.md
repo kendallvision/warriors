@@ -1,20 +1,18 @@
-<h1>Warriors for Christ</h1>
-<p>
-    The purpose of this application is to provide a basic website for <a href="http://www.warriors-for-christ.com">Warriors-For-Christ</a>.
-</P>
+# Warriors for Christ
+The purpose of this application is to provide a basic website for <a href="https://www.warriors-for-christ.com">Warriors-For-Christ</a> that allows content editing using Markdown files.
 
-<h2>Getting Started</h2>
-npm install<br/>
-npm start
+## Getting Started
+```
+npm install
+npm run watch
+```
 
-<h2>Key Technologies Used</h2>
-<ul>
-    <li>React</li>
-    <li>React-Routes</li>
-    <li>Nodejs</li>
-    <li>Javascript/Html/Css</li>
-    <li>CircleCi</li>
-    <li>Firebase (hosting)</li>
-    <li>W3 for Responsiveness</li>
-    <li>Create-React-App</li>
-</ul>
+## Key Technologies Used
+* Google Polymer/LitElement
+* Google PolymerElements
+* NodeJS
+* CircleCi (Devops)
+* Firebase (hosting)
+* W3 (responsiveness)
+* Markdown
+* Morgan (logging middleware)

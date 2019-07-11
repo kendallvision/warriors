@@ -1,0 +1,51 @@
+{
+    "npm": true,
+    "entrypoint": "public/index.html",
+    "sources": [
+      "components/**/*.js"
+    ],
+    "extraDependencies": [
+      "node_modules/@webcomponents/webcomponentsjs/*.js",
+      "node_modules/@webcomponents/webcomponentsjs/bundles/**",
+      "src/images/**",
+      "public/favicon.ico",
+      "public/manifest.json"
+    ],
+    "builds": [
+      {
+        "name": "es5prod",
+        "js": {
+          "minify": true,
+          "compile": "es5",
+          "transformModulesToAmd": false
+        },
+        "css": {
+          "minify": true
+        },
+        "html": {
+          "minify": false
+        },
+        "bundle": false,
+        "addServiceWorker": false,
+        "addPushManifest": false
+      },
+      {
+        "name": "es6prod",
+        "js": {
+          "minify": true,
+          "compile": "es2017",
+          "transformModulesToAmd": false
+        },
+        "css": {
+          "minify": true
+        },
+        "html": {
+          "minify": false
+        },
+        "bundle": false,
+        "addServiceWorker": false,
+        "addPushManifest": false
+      }
+    ]
+  }
+  
