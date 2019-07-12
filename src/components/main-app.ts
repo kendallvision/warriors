@@ -22,7 +22,7 @@ export class MainApp extends LitElement {
 
                 <div class="w3-row-padding">
                     <div class="w3-third">
-                        <markdown-section></markdown-section>
+                        <markdown-section source="/src/content/WhatWeTeach.md"></markdown-section>
                     </div>
                     <div class="w3-third">
                         <markdown-section></markdown-section>

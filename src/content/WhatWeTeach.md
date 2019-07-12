@@ -1,4 +1,4 @@
-## **<span style="color: royalblue">What We Teach</span>**
+## **What We Teach**
 
 Warriors for Christ shares the love of Christ through the Contagious Christianity concept of doing life and having fun together.
 
@@ -13,4 +13,4 @@ We teach:
 
 Our martial arts style is **Tao Hsieh Wu Shu**
 
-<a href="about">Learn More</a>
+[Learn More](/about)
