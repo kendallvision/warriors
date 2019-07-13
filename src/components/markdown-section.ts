@@ -18,6 +18,10 @@ export class MarkdownSection extends LitElement {
             font-family: 'Roboto', Arial, Helvetica, sans-serif;
             margin-top: 10px;
         }
+
+        .main h2 {
+            color: darkblue;
+        }
     `
 
     render() {

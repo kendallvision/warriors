@@ -22,6 +22,18 @@ export class MainApp extends LitElement {
 
                 <div class="w3-row-padding">
                     <div class="w3-third">
+                        <markdown-section></markdown-section>
+                    </div>
+                    <div class="w3-third">
+                        <markdown-section></markdown-section>
+                    </div>
+                    <div class="w3-third">
+                        <markdown-section></markdown-section>
+                    </div>
+                </div>
+
+                <div class="w3-row-padding">
+                    <div class="w3-third">
                         <markdown-section source="/src/content/WhatWeTeach.md"></markdown-section>
                     </div>
                     <div class="w3-third">
@@ -29,18 +41,6 @@ export class MainApp extends LitElement {
                     </div>
                     <div class="w3-third">
                         <markdown-section source="/src/content/RelatedLinks.md"></markdown-section>
-                    </div>
-                </div>
-
-                <div class="w3-row-padding">
-                    <div class="w3-third">
-                        <markdown-section></markdown-section>
-                    </div>
-                    <div class="w3-third">
-                        <markdown-section></markdown-section>
-                    </div>
-                    <div class="w3-third">
-                        <markdown-section></markdown-section>
                     </div>
                 </div>
             </div>
