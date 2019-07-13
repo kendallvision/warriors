@@ -18,7 +18,8 @@
     "watch:components": "onchange 'src/components/*.ts' -- npm run build",
     "watch:pack": "webpack --config webpack.config.js",
     "watch:ux": "onchange '*.html' -- npm run build",
-    "watch": "concurrently --kill-others \"npm start\" \"npm run watch:pack\" \"npm run watch:ux\" \"npm run watch:components\"",
+    "watch:content": "onchange 'src/content/*.md' -- npm run build",
+    "watch": "concurrently --kill-others \"npm start\" \"npm run watch:pack\" \"npm run watch:ux\" \"npm run watch:components\" \"npm run watch:content\"",
     "finder": "ps aux | grep 'node --inspect'"
   },
   "browserslist": [
