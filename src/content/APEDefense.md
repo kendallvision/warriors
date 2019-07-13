@@ -6,4 +6,4 @@ Attendees are taught defense-minded principles and practical techniques they can
 
 These courses are generally 1-2 hours and are offered free of charge.
 
-[Contact Us To Schedule One](<info@warriors-for-christ.com> 'Contact Us')
+[Contact Us To Schedule One](mailto:info@warriors-for-christ.com?subject=APE Defense 'Contact Us')
