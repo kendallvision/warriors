@@ -28,7 +28,7 @@ export class MainApp extends LitElement {
                         <markdown-section source="/src/content/APEDefense.md"></markdown-section>
                     </div>
                     <div class="w3-third">
-                        <markdown-section></markdown-section>
+                        <markdown-section source="/src/content/RelatedLinks.md"></markdown-section>
                     </div>
                 </div>
 
