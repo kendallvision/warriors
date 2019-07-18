@@ -25,7 +25,7 @@ export class MainApp extends LitElement {
                         <markdown-section></markdown-section>
                     </div>
                     <div class="w3-third">
-                        <markdown-section></markdown-section>
+                        <markdown-section source="/src/content/Raleigh.md"></markdown-section>
                     </div>
                     <div class="w3-third">
                         <markdown-section></markdown-section>
